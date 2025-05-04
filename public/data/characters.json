@@ -2,6 +2,7 @@
     "characters": [
         {
             "name": "Arkhe",
+            "lore": "A monk from Valkuns Reach",
             "hp": 1000,
             "speed": 35,
             "rarity": "UR",
