@@ -457,7 +457,7 @@
             "speed": 24,
             "rarity": "R",
             "SigChargeReq": 130,
-            "imageName": "TRex",
+            "imageName": "Trex",
             "moves": [
                 {
                     "name": "Apex Predator",
