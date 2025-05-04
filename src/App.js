@@ -1,4 +1,21 @@
-import logo from './logo.svg';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import CharacterPage from './pages/CharacterPage';
+
+function App() {
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/character/:name" element={<CharacterPage />} />
+      </Routes>
+    </Router>
+  );
+}
+
+export default App;
+
+/*import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -23,3 +40,4 @@ function App() {
 }
 
 export default App;
+*/

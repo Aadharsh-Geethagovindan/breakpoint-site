@@ -1,0 +1,544 @@
+{
+    "characters": [
+        {
+            "name": "Arkhe",
+            "hp": 1000,
+            "speed": 35,
+            "rarity": "UR",
+            "SigChargeReq": 100,
+            "imageName": "Arkhe",
+            "moves": [
+                {
+                    "name": "Elemental Master",
+                    "description": "All elemental damage increased by 10%",
+                    "cooldown": 0
+                },
+                {
+                    "name": "Airburst",
+                    "description": "Arkhe shoots a gust of air dealing 30 air damage. Affected enemies have a 15% chance of being stunned next turn.",
+                    "cooldown": 1
+                },
+                {
+                    "name": "Elemental Support",
+                    "description": "Using the mastery of water and warth, provide 20 healing and 15 shield to an ally",
+                    "cooldown": 3
+                },
+                {
+                    "name": "Monk's Rage",
+                    "description": "Arkhe deals 100 fire damage",
+                    "cooldown": 1
+                }
+            ]
+        },
+        {
+            "name": "Avarice",
+            "hp": 480,
+            "speed": 20,
+            "rarity": "R",
+            "SigChargeReq": 160,
+            "imageName": "Avarice",
+            "moves": [
+                {
+                    "name": "Water Priestess",
+                    "description": "Water and Ice damage aimed at Avarice is converted into health instead",
+                    "cooldown": 0
+                },
+                {
+                    "name": "God Blow",
+                    "description": "Avarice deals 30 water damage",
+                    "cooldown": 1
+                },
+                {
+                    "name": "Blessing",
+                    "description": "Avarice heals a character for 75 HP",
+                    "cooldown": 2
+                },
+                {
+                    "name": "Resurrection",
+                    "description": "Avarice can bring back a character that died this turn with 25% HP",
+                    "cooldown": 1
+                }
+            ]
+        },
+        {
+            "name": "Captain Dinso",
+            "hp": 800,
+            "speed": 30,
+            "rarity": "R",
+            "SigChargeReq": 90,
+            "imageName": "Dinso",
+            "moves": [
+                {
+                    "name": "Vibranium Protection",
+                    "description": "If an energy attack below 40 damage targets the Captain, there is a 50% chance for the damage to be reflected back",
+                    "cooldown": 0
+                },
+                {
+                    "name": "Shield Bash",
+                    "description": "The Captain slams his shield and does 20 physical damage.",
+                    "cooldown": 1
+                },
+                {
+                    "name": "Ricochet",
+                    "description": "The Captain skillfully throws his shield at an enemy and bounces it off them to hit a second enemy, dealing 15 physical damage each time.",
+                    "cooldown": 2
+                },
+                {
+                    "name": "Constellian Command",
+                    "description": "Allies receive a signature charge equal to 50% of their requirement. All debuffs on any party members are erased.",
+                    "cooldown": 1
+                }
+            ]
+        },
+        {
+            "name": "Faru",
+            "hp": 600,
+            "speed": 25,
+            "rarity": "UC",
+            "SigChargeReq": 110,
+            "imageName": "Faru",
+            "moves": [
+                {
+                    "name": "Rift Mutation",
+                    "description": "All healing and damage bonus buffs given to Faru will be doubled",
+                    "cooldown": 0
+                },
+                {
+                    "name": "Silver Sword Slash",
+                    "description": "Faru attacks with his greatsword for 25 physical damage.",
+                    "cooldown": 1
+                },
+                {
+                    "name": "Flaming Sword Strike",
+                    "description": "Faru infuses his sword with fire and attacks for 45 fire damage. He has a 60% chance to inflict Burn, which deals 20 damage on the next turn.",
+                    "cooldown": 2
+                },
+                {
+                    "name": "All Out",
+                    "description": "Faru deals 60 physical damage. This damage is increased by 30 for every buff he currently has",
+                    "cooldown": 1
+                }
+            ]
+        },
+        {
+            "name": "Huron",
+            "hp": 1200,
+            "speed": 90,
+            "rarity": "L",
+            "SigChargeReq": 200,
+            "imageName": "Huron",
+            "moves": [
+                {
+                    "name": "Silgar's Undying Protector",
+                    "description": "Huron gains a 25% damage bonus for every 70 HP he regains. This effect can occur 3 times",
+                    "cooldown": 0
+                },
+                {
+                    "name": "Scorch Ray",
+                    "description": "Huron fires a blast dealing 50 energy damage",
+                    "cooldown": 1
+                },
+                {
+                    "name": "Solar Cover",
+                    "description": "Huron deals 18 energy damage to all enemies, and inflicts blinding,lowering their accuracy by 20% for the next turn",
+                    "cooldown": 3
+                },
+                {
+                    "name": "Silgar's Might",
+                    "description": "Huron creates a dragon of pure energy, punching through it to deal 160 energy damage",
+                    "cooldown": 1
+                }
+            ]
+        },
+        {
+            "name": "Jack",
+            "hp": 400,
+            "speed": 20,
+            "rarity": "UC",
+            "SigChargeReq": 50,
+            "imageName": "Jack",
+            "moves": [
+                {
+                    "name": "Crafty Crafty",
+                    "description": "If an attack would have killed jack, it will instead reduce his hp to 1",
+                    "cooldown": 30
+                },
+                {
+                    "name": "Blaster Rifle",
+                    "description": "Jack shoots his rifle, dealing 20 energy damage.",
+                    "cooldown": 1
+                },
+                {
+                    "name": "Targeted Strike",
+                    "description": "Jack verbally abuses an enemy inflicting 'Mocked'. The next ally to attack the mocked enemy gains +20% damage",
+                    "cooldown": 3
+                },
+                {
+                    "name": "Cindrillian Enhancements",
+                    "description": "All allies gain a 30% damage bonus and 10 shield points",
+                    "cooldown": 1
+                }
+            ]
+        },
+        {
+            "name": "KAS",
+            "hp": 800,
+            "speed": 35,
+            "rarity": "R",
+            "SigChargeReq": 0,
+            "imageName": "KAS",
+            "moves": [
+                {
+                    "name": "Kinematic Assault Specialist",
+                    "description": "If KAS wasn’t attacked during the previous turn, he gains a 10-point shield at the start of his turn.",
+                    "cooldown": 0
+                },
+                {
+                    "name": "Cinder Stream",
+                    "description": "KAS slashes the enemy in a flurry of strikes, dealing 40 physical damage.",
+                    "cooldown": 1
+                },
+                {
+                    "name": "Dual Wield Precision",
+                    "description": "KAS dashes to strike two enemies with 25 physical damage each. If only one enemy remains, both hits hit them.",
+                    "cooldown": 2
+                },
+                {
+                    "name": "Sword Skill: Eclipse",
+                    "description": "KAS unleashes a finishing combo dealing 100 energy damage and grants himself 10 shield.",
+                    "cooldown": 1
+                }
+            ]
+        },
+        {
+            "name": "Krakoa",
+            "hp": 1000,
+            "speed": 26,
+            "rarity": "UR",
+            "SigChargeReq": 130,
+            "imageName": "Krakoa",
+            "moves": [
+                {
+                    "name": "CA's Special Force",
+                    "description": "Krakoa's physical and fire resistance increase by 10% for every 20% reduction in his health",
+                    "cooldown": 0
+                },
+                {
+                    "name": "Riftbreaker Axe",
+                    "description": "Krakoa attacks with his axe and deals 35 Ice damage.",
+                    "cooldown": 1
+                },
+                {
+                    "name": "WarFrost",
+                    "description": "Krakoa's axe unleashes a wall of ice, dealing 30 Ice damage. He inflicts Chill on an enemy for 2 turns, dealing 20 ice damage",
+                    "cooldown": 2
+                },
+                {
+                    "name": "Warriors Rage",
+                    "description": "Krakoa heals himself for 100 and becomes enraged for the next two turns. While Enraged, he only uses his normal attack and gains a 100% damage bonus multiplier",
+                    "cooldown": 1
+                }
+            ]
+        },
+        {
+            "name": "Mizca",
+            "hp": 800,
+            "speed": 30,
+            "rarity": "R",
+            "SigChargeReq": 100,
+            "imageName": "Mizca",
+            "moves": [
+                {
+                    "name": "Multiplying Rage",
+                    "description": "At the end of each round,The Mizca gains 15% damage bonus (capped at 50%) but takes 10 true damage.",
+                    "cooldown": 0
+                },
+                {
+                    "name": "Saber Slice",
+                    "description": "The Mizca slices with his rift weapon, dealing 40 energy damage.",
+                    "cooldown": 1
+                },
+                {
+                    "name": "Hold Choke",
+                    "description": "Mizca chokes an opponent, dealing 35 Air damage. If the opponent has less than half their max HP, they will gain Weakened, and do 30% reduced damage on their next attack.",
+                    "cooldown": 2
+                },
+                {
+                    "name": "Power of the Corrupted",
+                    "description": "Mizca rips at the very foundations of the battleground, and hurls large rocks at his enemies. Deals 55 earth damage at two enemies",
+                    "cooldown": 1
+                }
+            ]
+        },
+        {
+            "name": "Nou",
+            "hp": 600,
+            "speed": 50,
+            "rarity": "L",
+            "SigChargeReq": 200,
+            "imageName": "Nou",
+            "moves": [
+                {
+                    "name": "Sky Goddess",
+                    "description": "Nou is immune to air damage, and has a 40% chance to dodge attacks from characters",
+                    "cooldown": 0
+                },
+                {
+                    "name": "Whirlwind",
+                    "description": "Nou shoots a cyclone dealing 30 Air damage at two enemies",
+                    "cooldown": 1
+                },
+                {
+                    "name": "Dust Storm",
+                    "description": "Nou creates a dust storm. Deals 20 air damage and inflicts Covered, which reduces target's accuracy by 50% this turn",
+                    "cooldown": 2
+                },
+                {
+                    "name": "World Wind",
+                    "description": "Nou creates a powerful windstorm that deals 60 air damage to all enemies",
+                    "cooldown": 1
+                }
+            ]
+        },
+        {
+            "name": "Olthar",
+            "hp": 880,
+            "speed": 37,
+            "rarity": "UR",
+            "SigChargeReq": 120,
+            "imageName": "Olthar",
+            "moves": [
+                {
+                    "name": "Arbiter of Silgar",
+                    "description": "Party members under 100 HP gain a 50% damage buff (checked at start of each round)",
+                    "cooldown": 0
+                },
+                {
+                    "name": "Ocular Blaster",
+                    "description": "Olthar shoots an enery blast from his eyes, dealing 35 energy damage.",
+                    "cooldown": 1
+                },
+                {
+                    "name": "Concussive Wave",
+                    "description": "Olthar's Hands shoot a wave of concussive force, dealing 20 air damage per enemy.",
+                    "cooldown": 3
+                },
+                {
+                    "name": " Word of Judgement",
+                    "description": "Olthar deals 60 energy damage and 15 energy damage to an enemy for the next two turns.",
+                    "cooldown": 1
+                }
+            ]
+        },
+        {
+            "name": "Rover",
+            "hp": 400,
+            "speed": 7,
+            "rarity": "C",
+            "SigChargeReq": 30,
+            "imageName": "Rover",
+            "moves": [
+                {
+                    "name": "Targeting System",
+                    "description": "Increases allies accuracy by 20%",
+                    "cooldown": 0
+                },
+                {
+                    "name": "Zapper",
+                    "description": "Deals 10 lightning damage",
+                    "cooldown": 1
+                },
+                {
+                    "name": "Confusion Tactics",
+                    "description": "Rover's anti-radar lowers an enemy's accuracy by 15%, deals 15 physical damage",
+                    "cooldown": 2
+                },
+                {
+                    "name": "System Hack",
+                    "description": "Rover finds the opponents weak spots. All enemies lightning and energy resistance is reduced by 30%",
+                    "cooldown": 1
+                }
+            ]
+        },
+        {
+            "name": "Raish",
+            "hp": 600,
+            "speed": 20,
+            "rarity": "UC",
+            "SigChargeReq": 75,
+            "imageName": "Raish",
+            "moves": [
+                {
+                    "name": "Sacrifice",
+                    "description": "When an ally dies, Raish's damage is increased by 50%",
+                    "cooldown": 0
+                },
+                {
+                    "name": "Claw",
+                    "description": "Raish strikes dealing 20 poison damage",
+                    "cooldown": 1
+                },
+                {
+                    "name": "Venomous Strike",
+                    "description": "Raish bites with its corrupted mouth, dealing 30 poison damage",
+                    "cooldown": 2
+                },
+                {
+                    "name": "Martyr",
+                    "description": "Raish deals poison damage equal to 150% of the damage it has received",
+                    "cooldown": 1
+                }
+            ]
+        },
+        {
+            "name": "Rei",
+            "hp": 800,
+            "speed": 32,
+            "rarity": "UR",
+            "SigChargeReq": 100,
+            "imageName": "Rei",
+            "moves": [
+                {
+                    "name": "Electric Empress",
+                    "description": "The shogun is immune to lightning damage. She is also immune to Energy attacks dealing 30 damage or less",
+                    "cooldown": 0
+                },
+                {
+                    "name": "Katana Strike",
+                    "description": "The Shogun attacks with her lightning katana, dealing 40 lightning damage",
+                    "cooldown": 1
+                },
+                {
+                    "name": "Burst Charge",
+                    "description": "Rei deals 35 Lightning damage to an opponent and inflicts Electroshock for 2 turns. Enemies that are electroshocked have their electric and water resistance decreased by 20%, and will take 10 damage per turn",
+                    "cooldown": 3
+                },
+                {
+                    "name": "Musou no Hitotachi",
+                    "description": "The Shogun slices the fabric of reality with her blade, dealing 140 lightning damage at an enemy and a 40% chance to inflict Stun. Stunned enemies cannot act on their turn, but status effects will take place",
+                    "cooldown": 1
+                }
+            ]
+        },
+        {
+            "name": "Sedra",
+            "hp": 700,
+            "speed": 60,
+            "rarity": "R",
+            "SigChargeReq": 100,
+            "imageName": "Sedra",
+            "moves": [
+                {
+                    "name": "Tamaranean Durability",
+                    "description": "Sedra has a 50% chance to ignore physical attacks under 30 damage.",
+                    "cooldown": 0
+                },
+                {
+                    "name": "Heat Vision",
+                    "description": "Sedra shoots lasers out her eyes and deals 40 Energy Damage.",
+                    "cooldown": 1
+                },
+                {
+                    "name": "Nova Lash",
+                    "description": "Sedra dashes in and slashes a target with solar fire, dealing 40 energy damage and applying Solar Wind (20 energy dmg over 2 turns)",
+                    "cooldown": 2
+                },
+                {
+                    "name": "Starburst Explosion",
+                    "description": "Sedra launches a giant explosion, dealing 50 AoE energy damage.",
+                    "cooldown": 1
+                }
+            ]
+        },
+        {
+            "name": "TRex",
+            "hp": 960,
+            "speed": 24,
+            "rarity": "R",
+            "SigChargeReq": 130,
+            "imageName": "TRex",
+            "moves": [
+                {
+                    "name": "Apex Predator",
+                    "description": "When T-Rex is the only surviving member of his team, gain 50% damage and full signature charge",
+                    "cooldown": 0
+                },
+                {
+                    "name": "CHOMP",
+                    "description": "Trex bites dealing 40 physical damage",
+                    "cooldown": 1
+                },
+                {
+                    "name": "ROAR",
+                    "description": "The Rex attempts to inflict terrify on a target.Terrified lasts 2 turns and decreases accuracy by 40% and damage by 50%. Base 20% chance. For every 10% below the maxHP of the target, chance to terrify the target increases 20%.",
+                    "cooldown": 3
+                },
+                {
+                    "name": "Tyrant Lizard King",
+                    "description": "Trex bites dealing 50 physical damage and inflict Poisoned. When Poisoned, The target takes 20 poison damage for the next 2 turns",
+                    "cooldown": 1
+                }
+            ]
+        },
+        {
+            "name": "Ulmika",
+            "hp": 520,
+            "speed": 10,
+            "rarity": "UC",
+            "SigChargeReq": 140,
+            "imageName": "Ulmika",
+            "moves": [
+                {
+                    "name": "Aretuza's Patronage",
+                    "description": "Ulmika removes a debuff on an ally once per round on her turn",
+                    "cooldown": 0
+                },
+                {
+                    "name": "Witch's Chill",
+                    "description": "Ulmika deals 15 ice dmg",
+                    "cooldown": 1
+                },
+                {
+                    "name": "Witch's Blessing",
+                    "description": "Yen grants a shield of 50 points to 2 allies or herself",
+                    "cooldown": 2
+                },
+                {
+                    "name": "Flaming Devastation",
+                    "description": "Yen consumes 60% of her current HP and deals 70 fire damage and inflict Burn for an additional 20 fire damage for 2 turns",
+                    "cooldown": 1
+                }
+            ]
+        },
+        {
+            "name": "VyGar",
+            "hp": 800,
+            "speed": 33,
+            "rarity": "R",
+            "SigChargeReq": 80,
+            "imageName": "VyGar",
+            "moves": [
+                {
+                    "name": "Defensive Rock",
+                    "description": "All resistances for all allies increase by 10%",
+                    "cooldown": 0
+                },
+                {
+                    "name": "Spear Strike",
+                    "description": "VyGar attacks dealing 30 physical damage",
+                    "cooldown": 1
+                },
+                {
+                    "name": "Meteor Strike",
+                    "description": "VyGar fires a rock at all opponents. Each hit does 15 earth damage.",
+                    "cooldown": 2
+                },
+                {
+                    "name": "Mighty Shield",
+                    "description": "VyGar casts a shield on a party member. This shield has 350 shield points.",
+                    "cooldown": 1
+                }
+            ]
+        }
+    ]
+}
