@@ -1,13 +1,21 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './pages/Home';
+import HomePage from './pages/HomePage';
+import CharactersPage from './pages/CharactersPage';
 import CharacterPage from './pages/CharacterPage';
+import LorePage from './pages/LorePage';
+import Navbar from './components/Navbar';
+import { Navigate } from 'react-router-dom';
 
 function App() {
   return (
     <Router>
+      <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/character/:name" element={<CharacterPage />} />
+      <Route path="/" element={<HomePage />} />
+      <Route path="/lore" element={<Navigate to="/lore/section1" />} />
+      <Route path="/lore/:sectionId" element={<LorePage />} />
+      <Route path="/characters" element={<CharactersPage />} />
+      <Route path="/character/:name" element={<CharacterPage />} />
       </Routes>
     </Router>
   );
@@ -15,29 +23,4 @@ function App() {
 
 export default App;
 
-/*import logo from './logo.svg';
-import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
-
-export default App;
-*/

@@ -1,0 +1,59 @@
+.lore-sidebar {
+  width: 250px;
+  background-color: #0e0e0e;
+  padding: 20px;
+  border-right: 1px solid #222;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  overflow-y: auto;
+}
+
+.lore-sidebar a {
+  display: block;
+  color: #b48aff;
+  margin-bottom: 10px;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.lore-sidebar a:hover {
+  color: #e0b3ff;
+}
+
+.lore-sidebar a.active {
+  color: #fff;
+  font-weight: bold;
+}
+.subheading-link {
+  display: block;
+  color: #888;
+  margin: 4px 0 4px 8px;
+  font-size: 0.9em;
+  text-decoration: none;
+}
+
+.subheading-link:hover {
+  color: #e0b3ff;
+}
+.toggle-arrow {
+  cursor: pointer;
+  color: #ccc;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  display: block;
+  padding: 10px;
+}
+
+.sidebar-header {
+  border-bottom: 1px solid #333;
+  margin-bottom: 10px;
+}
+
+.sidebar-sections a {
+  display: block;
+}
+.subheading-link.active-sub {
+  font-weight: bold;
+  color: #fff;
+}

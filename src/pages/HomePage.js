@@ -1,0 +1,295 @@
+export default function HomePage() {
+    return (
+      <div style={{ padding: '20px' }}>
+        <h1>Welcome to BreakPoint</h1>
+        <img src={`/Images/MainPoster.png`} width="400" />
+  
+        <h1>🧭 How to Play: TCG Multiplayer Overview</h1>
+        <h2>🎯 Goal of the Game</h2>
+        <p>
+          BreakPoint is a fast-paced, turn-based card game where each player selects a team of three characters and battles to defeat their opponent’s team. Victory is achieved through careful use of abilities, smart targeting, and managing cooldowns and charge to outmaneuver the enemy.
+        </p>
+
+        <h2>🧱 Game Setup</h2>
+        <ul>
+          <li><strong>Players:</strong> 2</li>
+          <li><strong>Team Size:</strong> 3 characters per player</li>
+          <li><strong>Win Condition:</strong> Eliminate all 3 of your opponent’s characters</li>
+        </ul>
+        <p>
+          Once both players have selected their characters, the match begins with all six placed in a circular arena. Character turn order is determined by Speed, with the fastest acting first.
+        </p>
+
+        <img src="/Images/ArenaDiagram.png" alt="Arena Layout" style={{ width: '100%', maxWidth: '600px', marginTop: '10px' }} />
+        <p style={{ fontStyle: 'italic', fontSize: '0.9rem' }}>
+          (Image: A clock-style layout showing 3 characters on each side, arranged by speed order.)
+        </p>
+
+        <h2>🧩 Understanding a Character Card</h2>
+        <p>
+          Each character card contains vital information that helps you plan your moves and assess your options during battle. Here's a breakdown of the card's components:
+        </p>
+
+        <img
+          src="/Images/CardAnatomy.png"
+          alt="Character card anatomy with numbered labels"
+          style={{ width: '100%', maxWidth: '600px', marginTop: '10px' }}
+        />
+        <p style={{ fontStyle: 'italic', fontSize: '0.9rem' }}>
+          (Image: Sample character card with arrows pointing to each labeled component.)
+        </p>
+
+        <ol>
+          <li><strong>Portrait</strong> – The visual representation of the character.</li>
+          <li><strong>Name & Rarity</strong> – Character’s name and classification (e.g., C, UC, R, UR, L).</li>
+          <li><strong>HP Bar</strong> – Displays the current health of the character. If HP reaches 0, they are defeated.</li>
+          <li><strong>Signature Charge Bar</strong> – Shows progress toward unleashing the powerful Signature ability.</li>
+          <li><strong>Abilities</strong> – Four total:
+            <ul style={{ marginTop: '5px' }}>
+              <li><strong>Passive:</strong> Always active or conditionally triggered.</li>
+              <li><strong>Normal:</strong> Low-power, short cooldown.</li>
+              <li><strong>Skill:</strong> Medium-power, longer cooldown.</li>
+              <li><strong>Signature:</strong> Powerful ability unlocked when charge is full.</li>
+            </ul>
+          </li>
+        </ol>
+
+
+
+
+
+        
+        <h2>🎯 Accuracy & Dodge</h2>
+
+        <p>
+          Every character in BreakPoint has two key combat stats that determine whether an ability hits:
+        </p>
+
+        <ul>
+          <li><strong>Accuracy:</strong> The chance an ability has to hit the target. Most characters have 100% base accuracy unless stated otherwise.</li>
+          <li><strong>Dodge:</strong> The target’s chance to evade incoming attacks. Dodge applies a flat chance to avoid damage and effects.</li>
+        </ul>
+
+        <p>
+          The higher your character's accuracy, the higher their chance of hitting the opponent. Similarly, the higher the dodge percentage of your enemy, the more likely the chance for the attack to miss. 
+        </p>
+
+        <img
+          src="/Images/AccuracyVsDodge.png"
+          alt="Diagram showing accuracy vs dodge calculation"
+          style={{ width: '100%', maxWidth: '600px', marginTop: '10px' }}
+        />
+        <p style={{ fontStyle: 'italic', fontSize: '0.9rem' }}>
+          (Image: Side-by-side visual of attacker’s accuracy stat vs target’s dodge stat with a “miss” result.)
+        </p>
+        <h2>🧮 Damage, Multipliers & Resistances</h2>
+
+        <p>
+          BreakPoint uses a layered damage system that combines raw ability power with character-specific stats and resistances.
+        </p>
+
+        <h3>💥 Base Damage</h3>
+        <p>
+          Each ability deals a fixed amount of base damage (e.g., 40, 60, etc.).
+        </p>
+
+        <h3>📈 Damage Multipliers</h3>
+        <p>
+          Characters may have buffs or passives that apply a <strong>damage multiplier</strong> — a bonus percentage applied to all outgoing damage. For example, a 20% multiplier turns a 50-damage hit into 60 damage.
+        </p>
+
+        <h3>🛡️ Resistances</h3>
+        <p>
+          Characters can have resistances to specific <strong>damage types</strong> (e.g., Fire, Lightning, Physical). A resistance reduces incoming damage of that type by a flat percentage. For example, 25% Lightning resistance reduces 100 lightning damage to 75.
+        </p>
+
+        <h3>⚔️ Final Damage Formula</h3>
+        <p>
+          The final damage calculation is:
+        </p>
+
+        <pre style={{ backgroundColor: '#111', padding: '10px', borderRadius: '6px', overflowX: 'auto' }}>
+        Final Damage = Base Damage × (1 + Damage Multiplier) × (1 - Resistance)
+        </pre>
+
+        <img
+          src="/Images/DamageCalcDiagram.png"
+          alt="Visual breakdown of damage calculation"
+          style={{ width: '100%', maxWidth: '600px', marginTop: '10px' }}
+        />
+        <p style={{ fontStyle: 'italic', fontSize: '0.9rem' }}>
+          (Image: Damage calculation flow showing base damage, bonus multiplier, and resistance applied in sequence.)
+        </p>
+
+
+
+
+        <h2>⏱️ Turn Flow</h2>
+        <p>
+          BreakPoint is a turn-based game, and characters act one at a time based on their Speed. The character with the highest Speed takes the first turn, followed by the next fastest, and so on.
+        </p>
+
+        <p>Each turn consists of the following steps:</p>
+        <ol>
+          <li><strong>Highlight:</strong> The active character is visually highlighted.</li>
+          <li><strong>Select Ability:</strong> The player chooses one of the three available abilities (Normal, Skill, or Signature).</li>
+          <li><strong>Choose Target(s):</strong> Valid targets light up automatically. Some abilities may affect multiple characters.</li>
+          <li><strong>Execute:</strong> The chosen ability is used, applying damage, healing, or status effects.</li>
+          <li><strong>Cooldowns & Charge:</strong> The ability goes on cooldown and Signature Charge increases.</li>
+          <li><strong>Next Turn:</strong> Control passes to the next character in the Speed order.</li>
+        </ol>
+
+        <img
+          src="/Images/TurnOrderDiagram.png"
+          alt="Visual showing turn order and character flow"
+          style={{ width: '100%', maxWidth: '600px', marginTop: '10px' }}
+        />
+        <p style={{ fontStyle: 'italic', fontSize: '0.9rem' }}>
+          (Image: A horizontal flowchart showing character portraits in Speed order, with arrows flowing left to right.)
+        </p>
+
+        <h2>🌀 Ability Types</h2>
+        <p>
+          Each character has four unique abilities, categorized by purpose and availability. Managing these effectively is key to victory.
+        </p>
+
+        <table style={{ width: '100%', maxWidth: '600px', borderCollapse: 'collapse', marginTop: '10px' }}>
+          <thead>
+            <tr>
+              <th style={{ borderBottom: '1px solid #555', padding: '8px' }}>Type</th>
+              <th style={{ borderBottom: '1px solid #555', padding: '8px' }}>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style={{ padding: '8px' }}><strong>Passive</strong></td>
+              <td style={{ padding: '8px' }}>Always active or triggered by specific conditions. Requires no input from the player.</td>
+            </tr>
+            <tr>
+              <td style={{ padding: '8px' }}><strong>Normal</strong></td>
+              <td style={{ padding: '8px' }}>Basic attack with a short cooldown. Reliable and fast.</td>
+            </tr>
+            <tr>
+              <td style={{ padding: '8px' }}><strong>Skill</strong></td>
+              <td style={{ padding: '8px' }}>A more powerful ability with a longer cooldown. May apply status effects.</td>
+            </tr>
+            <tr>
+              <td style={{ padding: '8px' }}><strong>Signature</strong></td>
+              <td style={{ padding: '8px' }}>The ultimate ability. Requires full Signature Charge to use and resets charge afterward.</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <img
+          src="/Images/AbilitiesDiagram.png"
+          alt="Ability categories and charge/cooldown comparison"
+          style={{ width: '100%', maxWidth: '600px', marginTop: '10px' }}
+        />
+        <p style={{ fontStyle: 'italic', fontSize: '0.9rem' }}>
+          (Image: Bar-style graphic comparing cooldown and charge requirements for each ability type.)
+        </p>
+        <h2>🔋 Cooldowns & Signature Charge</h2>
+
+        <p>
+          Every non-passive ability has a cooldown — a set number of turns before it becomes usable again. Managing these cooldowns is essential to timing your damage and debuffs correctly.
+        </p>
+
+        <h3>⏳ Cooldowns</h3>
+        <ul>
+          <li>After using an ability, it becomes unavailable for a specific number of turns.</li>
+          <li>Normal abilities usually have short cooldowns (1–2 turns).</li>
+          <li>Skill abilities have longer cooldowns (often 2–4 turns).</li>
+          <li>Signature abilities don’t use cooldown — they rely on charge.</li>
+        </ul>
+
+        <h3>⚡ Signature Charge</h3>
+        <ul>
+          <li>Characters build Signature Charge by using abilities that deal <strong>damage</strong>, apply <strong>shielding</strong>, or cause <strong>healing</strong>.</li>
+          <li>The relationship is <strong>1:1</strong>: every point of damage, healing, or shielding contributes one point of charge.</li>
+          <li>Once the charge bar is full, the character can use their powerful Signature ability.</li>
+          <li>After using the Signature, charge is reset to zero.</li>
+        </ul>
+
+        <img
+          src="/Images/ChargeAndCooldowns.png"
+          alt="Comparison of ability cooldowns and charge system"
+          style={{ width: '100%', maxWidth: '600px', marginTop: '10px' }}
+        />
+        <p style={{ fontStyle: 'italic', fontSize: '0.9rem' }}>
+          (Image: A side-by-side chart showing cooldown timers on abilities vs. a growing charge bar for Signature.)
+        </p>
+        <h2>🧬 Status Effects</h2>
+
+        <p>
+          Abilities can apply various status effects to enemies or allies. These effects can last multiple turns and dramatically alter the flow of battle. Some of them are listed here
+        </p>
+
+        <table style={{ width: '100%', maxWidth: '600px', borderCollapse: 'collapse', marginTop: '10px' }}>
+          <thead>
+            <tr>
+              <th style={{ borderBottom: '1px solid #555', padding: '8px' }}>Effect</th>
+              <th style={{ borderBottom: '1px solid #555', padding: '8px' }}>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style={{ padding: '8px' }}>🔥 <strong>Burn</strong></td>
+              <td style={{ padding: '8px' }}>Deals damage over time each turn.</td>
+            </tr>
+            <tr>
+              <td style={{ padding: '8px' }}>💉 <strong>Weaken</strong></td>
+              <td style={{ padding: '8px' }}>Reduces the target’s damage output.</td>
+            </tr>
+            <tr>
+              <td style={{ padding: '8px' }}>🛡️ <strong>Shield</strong></td>
+              <td style={{ padding: '8px' }}>Absorbs incoming damage before HP is affected.</td>
+            </tr>
+            <tr>
+              <td style={{ padding: '8px' }}>⭐ <strong>Buff</strong></td>
+              <td style={{ padding: '8px' }}>Temporarily boosts a stat such as damage, healing, or defense.</td>
+            </tr>
+            <tr>
+              <td style={{ padding: '8px' }}>🤨  <strong>Stun</strong></td>
+              <td style={{ padding: '8px' }}>Prevents the target from acting on their next turn.</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <img
+          src="/Images/StatusIconsExample.png"
+          alt="Status effects displayed on character cards"
+          style={{ width: '100%', maxWidth: '600px', marginTop: '10px' }}
+        />
+        <p style={{ fontStyle: 'italic', fontSize: '0.9rem' }}>
+          (Image: Characters with small status icons floating above or below them, each representing an active effect.)
+        </p>
+
+        <h2>🎮 Sample Turn Breakdown</h2>
+
+      <p>
+        Here’s a quick look at how a single turn plays out in BreakPoint. Let’s say the current character is <strong>Sedra</strong>, a ranged lightning specialist.
+      </p>
+
+      <ol>
+        <li><strong>Highlight:</strong> Sedra is visually highlighted as the active character.</li>
+        <li><strong>Player Chooses Ability:</strong> The player selects Sedra’s <em>Skill</em> ability — <strong>Nova Slash</strong>.</li>
+        <li><strong>Select Target:</strong> Valid enemies are shown. The player clicks on <strong>Mizca</strong>, a Rift Beast.</li>
+        <li><strong>Execution:</strong> Sedra’s animation plays as she launches Nova Slash. On Hit, Mizca takes energy damage and is inflicted with <em>Nova Slash</em>.</li>
+        <li><strong>Update UI:</strong> Mizca’s HP drops, and his status effects show a Nova Slash.</li>
+        <li><strong>Cooldown/Charge:</strong> Plasma Arc enters cooldown, and Sedra gains Signature Charge based on the damage dealt.</li>
+        <li><strong>Next Turn:</strong> The next character in Speed order becomes active.</li>
+      </ol>
+
+      <img
+        src="/Images/SampleTurnSedra.png"
+        alt="Step-by-step UI breakdown of Sedra using a Skill move"
+        style={{ width: '100%', maxWidth: '600px', marginTop: '10px' }}
+      />
+      <p style={{ fontStyle: 'italic', fontSize: '0.9rem' }}>
+        (Image: Sequential panels showing Sedra selected, ability chosen, target selected, effect played, and Mizca’s card updating.)
+      </p>
+
+
+      </div>
+    );
+  }

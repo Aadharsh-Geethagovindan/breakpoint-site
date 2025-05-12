@@ -149,3 +149,59 @@ body::before {
     padding: 10px;
   }
 }
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1em;
+  background-color: #111;
+  color: #b48aff;
+}
+
+th, td {
+  padding: 8px 12px;
+  border: 1px solid #444;
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: #1a1a1a;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.section-nav {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  gap: 10px;
+}
+
+.nav-button {
+  background-color: #222;
+  color: #ccc;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 45%;
+  display: inline-block;
+  font-size: 0.9rem;
+  transition: background-color 0.2s ease;
+}
+
+.nav-button:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.nav-button.left {
+  text-align: left;
+}
+
+.nav-button.right {
+  text-align: right;
+}

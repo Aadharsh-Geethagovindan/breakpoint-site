@@ -2,7 +2,6 @@
     "characters": [
         {
             "name": "Arkhe",
-            "lore": "A monk from Valkuns Reach",
             "hp": 1000,
             "speed": 35,
             "rarity": "UR",
@@ -29,7 +28,8 @@
                     "description": "Arkhe deals 100 fire damage",
                     "cooldown": 1
                 }
-            ]
+            ],
+            "lore":"Arkhe is a monk from Valkun’s Reach, an isolated city on a distant world built beneath a stable skyborne rift. He is unaffiliated with any galactic organization but is respected across systems as a wandering elemental warrior. He is known primarily as an elemental monk — someone whose body and spirit have harmonized with the leylines near the Valkun Rift."
         },
         {
             "name": "Avarice",
@@ -59,7 +59,8 @@
                     "description": "Avarice can bring back a character that died this turn with 25% HP",
                     "cooldown": 1
                 }
-            ]
+            ],
+            "lore": "Avarice is a water-attuned cleric hailing from Del'Terah, a lush oceanic planet marked by vast fjords, sunken temples, and semi-submerged cities. She is a devout follower of the water goddess Myriel and serves as a traveling divine channeler. She is both a healer and a wielder of destructive tidal magic. Though not formally tied to any galactic faction, she has participated in several interstellar operations under alliance banners when rift activity threatens sacred waters."
         },
         {
             "name": "Captain Dinso",
@@ -89,7 +90,8 @@
                     "description": "Allies receive a signature charge equal to 50% of their requirement. All debuffs on any party members are erased.",
                     "cooldown": 1
                 }
-            ]
+            ],
+            "lore": "Dinso is a decorated officer of the Constellian Army, best known as the commanding captain of the 73rd Constellian Company (73rd CC). The 73rd CC is a versatile deployment unit stationed for rapid planetary response. Born in Silgar and trained at StarSprawler Academy, Dinso later transferred into the Constellian forces, rising through the ranks not just through tactical success but for his unwavering reputation as a protector and battlefield leader."
         },
         {
             "name": "Faru",
@@ -119,7 +121,8 @@
                     "description": "Faru deals 60 physical damage. This damage is increased by 30 for every buff he currently has",
                     "cooldown": 1
                 }
-            ]
+            ],
+            "lore":"Faru is a Rifthunter from Thalnys, a remote and technologically underdeveloped planet far from the galactic core. While Thalnys rarely sees large-scale rift events, it suffers from constant minor riftbreaks, which have over time led to extensive mutation of native wildlife and unstable terrain. Without a centralized military, most villages and small cities rely on freelance rifthunters for protection — genetically altered warriors trained from youth to combat rift-corrupted threats."
         },
         {
             "name": "Huron",
@@ -149,7 +152,8 @@
                     "description": "Huron creates a dragon of pure energy, punching through it to deal 160 energy damage",
                     "cooldown": 1
                 }
-            ]
+            ],
+            "lore": "Huron is one of the most powerful mortals in Arkhalion’s history, a warrior of near-divine might and the living embodiment of Silgar’s martial spirit. He was Arkhalion, delivered to the IWO as an infant by a divine beast during the height of the post-Breakpoint chaos. His origin remains shrouded in mystery, but his life since has been an open record of war, growth, and sacrifice.\n Trained by Gosen, Silgar’s founder and last living divine general, Huron was raised in a world clawing its way back from oblivion. Though not a leader in the traditional sense, he became a symbol of resilience and the most celebrated independent combatant of the Delta — and perhaps the entire Constellian Alliance."
         },
         {
             "name": "Jack",
@@ -179,7 +183,8 @@
                     "description": "All allies gain a 30% damage bonus and 10 shield points",
                     "cooldown": 1
                 }
-            ]
+            ],
+            "lore":"Jack is a rogue artificer and saboteur hailing from Cindralith, known for his deep understanding of arcano-technological systems and a long history of weaponized mischief. Once a promising student at one of Cindralith’s top-tier engineering universities, Jack dropped out, or was expelled, depending on which version of the story he’s telling, and disappeared into the undercity.\nHe has since reemerged as a solo operative, deploying experimental gadgets and improvised tech to disable military-grade systems, disorient enemies, and undermine larger power structures. While not formally aligned with any state or institution, Jack often appears in Constellian Army databases , as a person of interest linked to unsanctioned weapons theft, sabotage, or data extraction."
         },
         {
             "name": "KAS",
@@ -209,7 +214,8 @@
                     "description": "KAS unleashes a finishing combo dealing 100 energy damage and grants himself 10 shield.",
                     "cooldown": 1
                 }
-            ]
+            ],
+            "lore": "KAS (Kinematic Assault System) is a hyper-agile mechanized combat unit developed by a private military tech group in Cindralith under the banner of Halion Dynamics. Designed to serve as a single-unit strike operative, KAS combines state-of-the-art technomantic circuitry with physical design principles derived from Rift-class creature countermeasures. The result is a machine optimized for high-speed, close-quarters combat — one that moves with frightening precision, reacts faster than the human eye, and follows its combat directives with unrelenting efficiency."
         },
         {
             "name": "Krakoa",
@@ -239,7 +245,8 @@
                     "description": "Krakoa heals himself for 100 and becomes enraged for the next two turns. While Enraged, he only uses his normal attack and gains a 100% damage bonus multiplier",
                     "cooldown": 1
                 }
-            ]
+            ],
+            "lore": "Krakoa is a Voidblade operative in the Constellian Navy’s elite special forces division, originally born and trained in Silgar. Though a graduate of StarSprawler Academy, Krakoa’s path through the academy was anything but conventional. His combat instincts, while exceptional, were often flagged as dangerously aggressive — nearly disqualifying him from advancement. He was eventually recruited into the Voidblade program after catching the attention of a Vice Helm during a live simulation."
         },
         {
             "name": "Mizca",
@@ -269,7 +276,8 @@
                     "description": "Mizca rips at the very foundations of the battleground, and hurls large rocks at his enemies. Deals 55 earth damage at two enemies",
                     "cooldown": 1
                 }
-            ]
+            ],
+            "lore":"Mizca are high-tier riftborn entities most commonly associated with Class B riftbreaks, though many A-class incidents have reported them as forward units. Standing taller than a giraffe at full extension but built with a broad, humanoid physique, Mizca embody both raw power and battlefield disruption. Despite their brutish profile, Mizca display alarming spatial awareness and can track fast-moving targets with unsettling accuracy."
         },
         {
             "name": "Nou",
@@ -299,7 +307,8 @@
                     "description": "Nou creates a powerful windstorm that deals 60 air damage to all enemies",
                     "cooldown": 1
                 }
-            ]
+            ],
+            "lore":"Nou is a wind-aligned divine being and the central protector of Aetherion, one of the three major cities of Arkhalion’s Delta. Though once a lesser-known entity in the pre-Breakpoint era, Nou rose to prominence after the catastrophe, becoming the spiritual and magical guardian of survivors in the southern hemisphere. In the present day, she is one of the few remaining divine beings still active on Arkhalion and is considered the founder and enduring protector of Aetherion."
         },
         {
             "name": "Olthar",
@@ -329,7 +338,8 @@
                     "description": "Olthar deals 60 energy damage and 15 energy damage to an enemy for the next two turns.",
                     "cooldown": 1
                 }
-            ]
+            ],
+            "lore": "Olthar is the Lawbearer of Silgar and the highest judicial authority in the city-state. A sentient construct forged by the Intergalactic Wizarding Organization (IWO) during the darkest days of Silgar’s history, Olthar represents the fusion of divine essence, technomantic engineering, and legal idealism. Though not a divine being in strength, he possesses a soul, one of the first successful artificial souls ever manifested, and a mind built for clarity, logic, and incorruptibility.\nHe is widely credited with ending Silgar’s most shameful period (The Shrouded Silgar era) and establishing the modern legal and ethical framework under which the city now operates. "
         },
         {
             "name": "Rover",
@@ -359,7 +369,8 @@
                     "description": "Rover finds the opponents weak spots. All enemies lightning and energy resistance is reduced by 30%",
                     "cooldown": 1
                 }
-            ]
+            ],
+            "lore":"Rover is a modified combat-support droid serving aboard Constellian Navy single-pilot interceptor vessels as a tactical adjunct and systems specialist. Originally built from a common astromech-class model available to civilians in Constellian systems, Rover has undergone extensive post-manufacture modification to meet the Navy’s high-performance standards — particularly those of the elite Riftstrike carrier fleet. \n Unlike most non-sentient droids, Rover possesses a stable AI core with adaptive learning protocols, giving him a distinct personality and battlefield intuition. While he is not unique in chassis design, the combination of his field modifications and accumulated experience make him one of the most reliable droids in the Navy’s current roster."
         },
         {
             "name": "Raish",
@@ -389,7 +400,8 @@
                     "description": "Raish deals poison damage equal to 150% of the damage it has received",
                     "cooldown": 1
                 }
-            ]
+            ],
+            "lore": "Raish are corrupted quadrupedal riftbeasts commonly encountered in Class C or D riftbreaks across Arkhalion and nearby systems. They are mutated derivatives of a natural predator species known as the Rais, once native to Arkhalion’s southern forests and highlands. While Rais were roughly the size and strength of a large mastiff, rift corruption amplifies their aggression, durability, and instinctive cunning, making the Raish a dangerous threat in groups."
         },
         {
             "name": "Rei",
@@ -419,7 +431,8 @@
                     "description": "The Shogun slices the fabric of reality with her blade, dealing 140 lightning damage at an enemy and a 40% chance to inflict Stun. Stunned enemies cannot act on their turn, but status effects will take place",
                     "cooldown": 1
                 }
-            ]
+            ],
+            "lore": "Rei is a mid-ranking operative within the Applied Arcana Division of the Intergalactic Wizarding Organization (IWO), holding the formal clearance rank of Tier IV Arc Warden. She is based on Arkhalion, where she oversees the testing and deployment of experimental magical technologies near active or unstable rift zones. Though not originally trained as a combatant, Rei’s years in the field have sharpened her reflexes and resilience to the point where even elite Silgarian soldiers acknowledge her capability in high-risk zones."      
         },
         {
             "name": "Sedra",
@@ -449,7 +462,8 @@
                     "description": "Sedra launches a giant explosion, dealing 50 AoE energy damage.",
                     "cooldown": 1
                 }
-            ]
+            ],
+            "lore": "Sedra is a magically gifted young woman born in Aetherion, the daughter of two of the city’s most influential figures. Her father holds the Elevation Seat on the Council of Ascendance, while her mother serves as the current Windsage of the Whispering Academy. From an early age, Sedra demonstrated signs of inborn divine energy, believed by scholars to be a faint resonance of Nou’s blessing, or perhaps a unique convergence of Aetherion’s ley currents and her bloodline. She is a rising defender of Aetherion and often serves as a first response combatant for major rift activity in the region."
         },
         {
             "name": "TRex",
@@ -479,7 +493,8 @@
                     "description": "Trex bites dealing 50 physical damage and inflict Poisoned. When Poisoned, The target takes 20 poison damage for the next 2 turns",
                     "cooldown": 1
                 }
-            ]
+            ],
+            "lore": "A towering, rift-altered predator, the Corrupted T-Rex is an apex-class threat born from the dimensional corruption of a prehistoric Earth-like species. Unlike most riftspawn, it is not an original creation of Breakpoint but a rift-mutated natural organism, elevated far beyond its original capabilities by exposure to high-intensity riftfields. \n Reports place its height at nearly 20 meters with enhanced bone density, triple-reinforced musculature, and rift-reactive scales that shed kinetic energy over time. Despite its brutish form, it is one of the most persistent planetary-scale threats recorded outside of Apex-Class 2 entities."
         },
         {
             "name": "Ulmika",
@@ -509,7 +524,8 @@
                     "description": "Yen consumes 60% of her current HP and deals 70 fire damage and inflict Burn for an additional 20 fire damage for 2 turns",
                     "cooldown": 1
                 }
-            ]
+            ],
+            "lore": "Ulmika is a Tier II Field Agent assigned to the Reconnaissance Subfield of the IWO Combat Division. Born in Arkhalion’s lower plains region and raised in a modest settlement rebuilt after the Breakpoint, Ulmika was recruited early into the IWO following a childhood encounter with a minor riftbreak — an event that left her with a distinctive rift-colored eye and a subtle, persistent sensitivity to rift phenomena.\n She now operates as part of forward-deployed detachments, often assigned to accompany Constellian military units during Class 3–4 riftbreaks. Her role blends recon, magical analysis, and long-range elemental support."
         },
         {
             "name": "VyGar",
@@ -539,7 +555,8 @@
                     "description": "VyGar casts a shield on a party member. This shield has 350 shield points.",
                     "cooldown": 1
                 }
-            ]
+            ],
+            "lore": "VyGar is a Stonebound construct, a semi-living being formed of ancient rock and infused with rift-stabilized ley energy. Forged in the Foundations beneath Silgar, he was originally assigned as the guardian of the Ley Core beneath Triarc Keep, a vital stabilizing structure that anchors leyline activity in the southern hemisphere of Arkhalion. When deep rift breaches threatened the surface, VyGar voluntarily left his post to join the effort aboveground — emerging not just as a protector of ley energy, but as a frontline ally against riftborn threats.\n Though he speaks and acts with wisdom beyond most mortals, VyGar is not divine. He is the product of ancient craftsmanship, arcane experimentation, and a soul bound through early IWO technomantic methods — a younger cousin, in spiritual terms, to constructs like Olthar."
         }
     ]
 }

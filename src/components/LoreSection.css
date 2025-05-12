@@ -1,0 +1,33 @@
+.lore-content table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #111;
+  margin-top: 1em;
+  color: #b48aff;
+}
+
+.lore-content th,
+.lore-content td {
+  border: 1px solid #444;
+  padding: 8px 12px;
+}
+
+.lore-content h1 {
+  color: #b923ff;
+  border-bottom: 2px solid #c77dff;
+  padding-bottom: 0.2em;
+}
+
+.lore-content h2 {
+  color: #a781f5;
+  margin-top: 1.5em;
+}
+
+.lore-content h3 {
+  color: #b48aff;
+  font-weight: normal;
+  margin-top: 1em;
+}
+.lore-content h2 {
+  scroll-margin-top: 80px; 
+}
