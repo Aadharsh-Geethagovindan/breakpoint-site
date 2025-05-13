@@ -19,9 +19,57 @@ export default function LoreSidebar({ subheadings,activeHeading }) {
 
   useEffect(() => {
     // Collapse by default on mobile only
-    setCollapsed(isMobile);
+    setCollapsed(false);
   }, [isMobile, sectionId]);
 
+  return (
+      <div className={`lore-sidebar ${collapsed ? 'collapsed' : 'expanded'}`}>
+        <button
+          onClick={() => setCollapsed(!collapsed)}
+          style={{
+            background: 'none',
+            color: '#ccc',
+            border: 'none',
+            fontSize: '1.2rem',
+            marginBottom: '10px',
+            cursor: 'pointer'
+          }}
+          title={collapsed ? 'Expand' : 'Collapse'}
+        >
+          {collapsed ? '◀' : '▼'} Nav
+        </button>
+
+        {!collapsed && (
+          <>
+            {sections.map(section => (
+              <div key={section.id}>
+                <Link
+                  to={`/lore/${section.id}`}
+                  className={sectionId === section.id ? 'active' : ''}
+                >
+                  {section.title}
+                </Link>
+
+                {section.id === sectionId && subheadings.length > 0 && (
+                  <div style={{ marginLeft: '10px' }}>
+                    {subheadings.map(h => (
+                      <a
+                        key={h.id}
+                        href={`#${h.id}`}
+                        className={`subheading-link ${activeHeading === h.id ? 'active-sub' : ''}`}
+                      >
+                        {h.text}
+                      </a>
+                    ))}
+                  </div>
+                )}
+              </div>
+            ))}
+          </>
+        )}
+      </div>
+    );
+/*
   return (
     <div className="lore-sidebar">
   <div className="sidebar-header" onClick={() => setCollapsed(!collapsed)}>
@@ -69,7 +117,7 @@ export default function LoreSidebar({ subheadings,activeHeading }) {
     </div>
   )}
 </div>
-  );
+  );*/
 }
 
 

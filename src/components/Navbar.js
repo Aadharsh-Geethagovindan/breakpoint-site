@@ -1,17 +1,45 @@
-import { Link, useLocation } from 'react-router-dom';
-import './Navbar.css'; // We'll create this next
+import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
+import './Navbar.css';
 
 export default function Navbar() {
-  const location = useLocation();
+  const [isMobile, setIsMobile] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  useEffect(() => {
+    const checkMobile = () => setIsMobile(window.innerWidth < 768);
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+    return () => window.removeEventListener('resize', checkMobile);
+  }, []);
 
   return (
-    <nav className="navbar">
-      <div className="navbar-title">BreakPoint</div>
-      <div className="navbar-links">
-        <Link to="/" className={location.pathname === '/' ? 'active' : ''}>Home</Link>
-        <Link to="/lore" className={location.pathname === '/lore' ? 'active' : ''}>Lore</Link>
-        <Link to="/characters" className={location.pathname === '/characters' ? 'active' : ''}>TCG Characters</Link>
-      </div>
+    <nav className="top-navbar">
+      <div className="logo">BreakPoint</div>
+
+      {isMobile ? (
+        <>
+          <button
+            className="hamburger"
+            onClick={() => setIsMenuOpen(prev => !prev)}
+          >
+            ☰
+          </button>
+          {isMenuOpen && (
+            <div className="mobile-menu">
+              <Link to="/">Home</Link>
+              <Link to="/tcg">TCG Characters</Link>
+              <Link to="/lore/section1">Lore</Link>
+            </div>
+          )}
+        </>
+      ) : (
+        <div className="nav-links">
+          <Link to="/">Home</Link>
+          <Link to="/tcg">TCG Characters</Link>
+          <Link to="/lore/section1">Lore</Link>
+        </div>
+      )}
     </nav>
   );
 }

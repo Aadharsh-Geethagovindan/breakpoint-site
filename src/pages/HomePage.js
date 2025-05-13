@@ -20,10 +20,8 @@ export default function HomePage() {
           Once both players have selected their characters, the match begins with all six placed in a circular arena. Character turn order is determined by Speed, with the fastest acting first.
         </p>
 
-        <img src="/Images/ArenaDiagram.png" alt="Arena Layout" style={{ width: '100%', maxWidth: '600px', marginTop: '10px' }} />
-        <p style={{ fontStyle: 'italic', fontSize: '0.9rem' }}>
-          (Image: A clock-style layout showing 3 characters on each side, arranged by speed order.)
-        </p>
+        <img src="/Images/battleGround.png" alt="Arena Layout" style={{ width: '100%', maxWidth: '600px', marginTop: '10px' }} />
+        
 
         <h2>🧩 Understanding a Character Card</h2>
         <p>
@@ -75,13 +73,11 @@ export default function HomePage() {
         </p>
 
         <img
-          src="/Images/AccuracyVsDodge.png"
+          src="/Images/dodgedAttack.png"
           alt="Diagram showing accuracy vs dodge calculation"
           style={{ width: '100%', maxWidth: '600px', marginTop: '10px' }}
         />
-        <p style={{ fontStyle: 'italic', fontSize: '0.9rem' }}>
-          (Image: Side-by-side visual of attacker’s accuracy stat vs target’s dodge stat with a “miss” result.)
-        </p>
+        
         <h2>🧮 Damage, Multipliers & Resistances</h2>
 
         <p>
@@ -133,24 +129,22 @@ export default function HomePage() {
         <ol>
           <li><strong>Highlight:</strong> The active character is visually highlighted.</li>
           <li><strong>Select Ability:</strong> The player chooses one of the three available abilities (Normal, Skill, or Signature).</li>
-          <li><strong>Choose Target(s):</strong> Valid targets light up automatically. Some abilities may affect multiple characters.</li>
+          <li><strong>Choose Target(s):</strong> Valid targets light up automatically,and a prompt at the bottom of the screen tells you how many targets can be selected</li>
+          <li><strong>Hit Detection:</strong> Once a target has been selected and the confirm button is hit, the move logic executes. A popup in the middle of the screen wil let you know if a target was struck or missed </li>
           <li><strong>Execute:</strong> The chosen ability is used, applying damage, healing, or status effects.</li>
           <li><strong>Cooldowns & Charge:</strong> The ability goes on cooldown and Signature Charge increases.</li>
           <li><strong>Next Turn:</strong> Control passes to the next character in the Speed order.</li>
         </ol>
 
-        <img
-          src="/Images/TurnOrderDiagram.png"
-          alt="Visual showing turn order and character flow"
-          style={{ width: '100%', maxWidth: '600px', marginTop: '10px' }}
-        />
-        <p style={{ fontStyle: 'italic', fontSize: '0.9rem' }}>
-          (Image: A horizontal flowchart showing character portraits in Speed order, with arrows flowing left to right.)
-        </p>
+       
+          <img src="/Images/turnFlow.png" alt="Clockwise Order" style = {{width: "100%"}}/>
+          
+       
+        
 
         <h2>🌀 Ability Types</h2>
         <p>
-          Each character has four unique abilities, categorized by purpose and availability. Managing these effectively is key to victory.
+          Each character has four unique abilities, categorized by purpose and availability. Managing these effectively is key to victory. Abilites in the game are shown in the same order as this table
         </p>
 
         <table style={{ width: '100%', maxWidth: '600px', borderCollapse: 'collapse', marginTop: '10px' }}>
@@ -181,13 +175,11 @@ export default function HomePage() {
         </table>
 
         <img
-          src="/Images/AbilitiesDiagram.png"
-          alt="Ability categories and charge/cooldown comparison"
+          src="/Images/huronMoves.png"
+          alt="image showing hurons passive,normal,skill and sig"
           style={{ width: '100%', maxWidth: '600px', marginTop: '10px' }}
         />
-        <p style={{ fontStyle: 'italic', fontSize: '0.9rem' }}>
-          (Image: Bar-style graphic comparing cooldown and charge requirements for each ability type.)
-        </p>
+        
         <h2>🔋 Cooldowns & Signature Charge</h2>
 
         <p>
@@ -211,13 +203,11 @@ export default function HomePage() {
         </ul>
 
         <img
-          src="/Images/ChargeAndCooldowns.png"
+          src="/Images/chargeAndCD.png"
           alt="Comparison of ability cooldowns and charge system"
           style={{ width: '100%', maxWidth: '600px', marginTop: '10px' }}
         />
-        <p style={{ fontStyle: 'italic', fontSize: '0.9rem' }}>
-          (Image: A side-by-side chart showing cooldown timers on abilities vs. a growing charge bar for Signature.)
-        </p>
+        
         <h2>🧬 Status Effects</h2>
 
         <p>
@@ -233,7 +223,7 @@ export default function HomePage() {
           </thead>
           <tbody>
             <tr>
-              <td style={{ padding: '8px' }}>🔥 <strong>Burn</strong></td>
+              <td style={{ padding: '8px' }}>🔥 <strong>Solar Wind</strong></td>
               <td style={{ padding: '8px' }}>Deals damage over time each turn.</td>
             </tr>
             <tr>
@@ -256,13 +246,11 @@ export default function HomePage() {
         </table>
 
         <img
-          src="/Images/StatusIconsExample.png"
+          src="/Images/statusEffect.png"
           alt="Status effects displayed on character cards"
           style={{ width: '100%', maxWidth: '600px', marginTop: '10px' }}
         />
-        <p style={{ fontStyle: 'italic', fontSize: '0.9rem' }}>
-          (Image: Characters with small status icons floating above or below them, each representing an active effect.)
-        </p>
+        
 
         <h2>🎮 Sample Turn Breakdown</h2>
 
@@ -274,21 +262,18 @@ export default function HomePage() {
         <li><strong>Highlight:</strong> Sedra is visually highlighted as the active character.</li>
         <li><strong>Player Chooses Ability:</strong> The player selects Sedra’s <em>Skill</em> ability — <strong>Nova Slash</strong>.</li>
         <li><strong>Select Target:</strong> Valid enemies are shown. The player clicks on <strong>Mizca</strong>, a Rift Beast.</li>
-        <li><strong>Execution:</strong> Sedra’s animation plays as she launches Nova Slash. On Hit, Mizca takes energy damage and is inflicted with <em>Nova Slash</em>.</li>
+        <li><strong>Execution:</strong> Sedra’s animation plays as she launches Nova Slash. On Hit, Mizca takes energy damage and is inflicted with the <em>Solar Wind</em> status effect.</li>
         <li><strong>Update UI:</strong> Mizca’s HP drops, and his status effects show a Nova Slash.</li>
-        <li><strong>Cooldown/Charge:</strong> Plasma Arc enters cooldown, and Sedra gains Signature Charge based on the damage dealt.</li>
+        <li><strong>Cooldown/Charge:</strong> Nova Slash enters cooldown, and Sedra gains Signature Charge based on the damage dealt.</li>
         <li><strong>Next Turn:</strong> The next character in Speed order becomes active.</li>
       </ol>
 
-      <img
-        src="/Images/SampleTurnSedra.png"
-        alt="Step-by-step UI breakdown of Sedra using a Skill move"
-        style={{ width: '100%', maxWidth: '600px', marginTop: '10px' }}
-      />
-      <p style={{ fontStyle: 'italic', fontSize: '0.9rem' }}>
-        (Image: Sequential panels showing Sedra selected, ability chosen, target selected, effect played, and Mizca’s card updating.)
-      </p>
-
+      <div style={{ display: 'flex', gap: '10px', justifyContent: 'center', flexWrap: 'wrap' }}>
+          <img src="/Images/turnFlowpt1.png" alt="Step 1" style={{ maxWidth: '500px', height: 'auto' }} />
+          <img src="/Images/turnFlowpt2.png" alt="Step 2" style={{ maxWidth: '300px', height: 'auto' }} />
+          <img src="/Images/turnFlowpt3.png" alt="Step 3" style={{ maxWidth: '500px', height: 'auto' }} />
+          <img src="/Images/turnFlowpt4.png" alt="Step 4" style={{ maxWidth: '200px', height: 'auto' }} />
+        </div>
 
       </div>
     );
