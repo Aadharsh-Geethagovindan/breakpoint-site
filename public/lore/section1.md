@@ -24,6 +24,36 @@ The effects of the Breakpoint rippled outward from Arkhalion, with intensity pro
 
 Arkhalion, wounded but not destroyed, became both the origin of the rift phenomenon and the first force to begin resisting it.
 
+## Bounded and Unbounded Areas
+
+Following the chaos of Breakpoint and the ensuing Divine Rift Wars, one of the most important stabilizing innovations of the post-cataclysmic era was the development of Warding Fields — large-scale containment wards designed by the IWO to reduce the volatility of raw energy expression in inhabited regions.
+
+Known colloquially as bounded zones or simply “the bounds,” these protective fields serve as a city’s first line of energetic regulation. Their function is straightforward: to suppress ambient and directed magical energies within a defined area, limiting the destructive potential of high-energy beings, technologies, and anomalies.
+
+### Function and Structure
+
+The Warding Field suppresses all three known energy types — rift, divine, and ley — and dampens their manifestation in both passive and active forms. This applies to magical constructs, elemental projection, teleportation, sustained flight, and other high-energy phenomena. While physical enhancements (such as biologically augmented strength or durability) are mostly unaffected, energy-based abilities are significantly weakened inside the bounds.
+
+### Design and Infrastructure
+
+Warding Fields are powered by anchor structures distributed across the protected zone — towers, pylons, or ley-reactive nodes that draw enormous amounts of energy to sustain the field. These systems scale exponentially in cost and power requirements:
+
+The maximum contiguous Warding Field size is 25,000 km². In cases where a second field must be placed nearby, it must be at least 200 km from the edge of the first to prevent overlap interference or sympathetic disruption.
+
+Due to the immense energy demand, most cities opt for bounded zones of manageable scale, often surrounding city centers, government sectors, and key infrastructure and housing — not entire continents.
+
+### Field Tuning and Energy Balance
+
+While all energy types are suppressed as a baseline, cities may tune their fields to emphasize suppression of specific energy categories. A scientific research district may allow greater ley throughput, while a military stronghold may heavily suppress rift energy but permit divine channels for tactical use.
+
+Suppressing energies beyond practical thresholds risks field instability, requiring constant recalibration and risking arcane surges. Additionally, over-suppression can harm a city’s infrastructure — much of which integrates rift-powered or ley-reliant technology with short-range applications (e.g., public transit nodes, shielding arrays, distributed storage systems).
+
+### Rift Repulsion and Incompatability
+
+One of the most critical features of Warding Fields is their ability to repel unstable rift energy, dramatically reducing the chance of riftbreaks occurring within the zone. Class A, B, or C riftbreaks are virtually unheard of inside a stable Warding Field. Class D breaches, however, may still slip through, especially in older systems or during high-energy fluctuations.
+
+This function makes Warding Fields a core component of urban planning in all major cities across the Constellian Alliance and beyond. In many cases, they are the only reason dense settlements can safely exist on planets still subject to occasional rift flares or fluctuating energy fields. While these wards are extreemely strong in nature, they are not technically unbreakable. However, attempting to forcefully bypass a Warding Field’s suppression is exceedingly rare — both due to the difficulty of the task and the risk of magical backlash, which can lead to disorientation, internal damage, or temporary burnout. Most citizens, and even trained operatives, simply do not possess the knowledge or skill to attempt such acts.
+
 ## Energy Systems
 
 There are three primary forms of magical energy in the BreakPoint universe: Rift Energy, Divine Energy, and Ley Energy. These are not sources of sentient will or moral alignment, but rather natural forces that exist across space, planets, and celestial phenomena. Each energy type behaves differently, and their interactions shape much of the technological, magical, and political infrastructure in the modern galaxy.
