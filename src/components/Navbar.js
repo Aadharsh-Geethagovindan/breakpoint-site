@@ -36,7 +36,7 @@ export default function Navbar() {
       ) : (
         <div className="nav-links">
           <Link to="/">Home</Link>
-          <Link to="/tcg">TCG Characters</Link>
+          <Link to="/characters">TCG Characters</Link>
           <Link to="/lore/section1">Lore</Link>
         </div>
       )}
