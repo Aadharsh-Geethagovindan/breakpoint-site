@@ -153,7 +153,7 @@
                     "cooldown": 1
                 }
             ],
-            "lore": "Huron is one of the most powerful mortals in Arkhalion’s history, a warrior of near-divine might and the living embodiment of Silgar’s martial spirit. He was Arkhalion, delivered to the IWO as an infant by a divine beast during the height of the post-Breakpoint chaos. His origin remains shrouded in mystery, but his life since has been an open record of war, growth, and sacrifice.\n Trained by Gosen, Silgar’s founder and last living divine general, Huron was raised in a world clawing its way back from oblivion. Though not a leader in the traditional sense, he became a symbol of resilience and the most celebrated independent combatant of the Delta — and perhaps the entire Constellian Alliance."
+            "lore": "Huron is one of the most powerful mortals in Arkhalion’s history, a warrior of near-divine might and the living embodiment of Silgar’s martial spirit. He was discovered as an infant in the aftermath of a failed IWO purification ritual. His origin defies replication, and he has an affinity for divine magic and natural arcane resistance.Trained by Gosen, Silgar’s founder and last living divine general, Huron was raised in a world clawing its way back from oblivion. Though not a leader in the traditional sense, he became a symbol of resilience and the most celebrated independent combatant of the Delta, and perhaps soon the entire Constellian Alliance."
         },
         {
             "name": "Jack",
@@ -308,7 +308,7 @@
                     "cooldown": 1
                 }
             ],
-            "lore":"Nou is a wind-aligned divine being and the central protector of Aetherion, one of the three major cities of Arkhalion’s Delta. Though once a lesser-known entity in the pre-Breakpoint era, Nou rose to prominence after the catastrophe, becoming the spiritual and magical guardian of survivors in the southern hemisphere. In the present day, she is one of the few remaining divine beings still active on Arkhalion and is considered the founder and enduring protector of Aetherion."
+            "lore":"Nou is a wind-aligned divine goddess and the central protector of Aetherion, one of the three major systems of Arkhalion’s Delta. Though once a lesser worshipped entity in the pre-Breakpoint era, Nou rose to prominence after the catastrophe, becoming the spiritual and magical guardian of survivors in the southern hemisphere. In the present day, she is the last god still active on Arkhalion and is considered the founder and enduring protector of Aetherion."
         },
         {
             "name": "Olthar",
@@ -494,7 +494,7 @@
                     "cooldown": 1
                 }
             ],
-            "lore": "A towering, rift-altered predator, the Corrupted T-Rex is an apex-class threat born from the dimensional corruption of a prehistoric Earth-like species. Unlike most riftspawn, it is not an original creation of Breakpoint but a rift-mutated natural organism, elevated far beyond its original capabilities by exposure to high-intensity riftfields. \n Reports place its height at nearly 20 meters with enhanced bone density, triple-reinforced musculature, and rift-reactive scales that shed kinetic energy over time. Despite its brutish form, it is one of the most persistent planetary-scale threats recorded outside of Apex-Class 2 entities."
+            "lore": "A towering, rift-altered predator, the Corrupted T-Rex is an apex-class threat born from the dimensional corruption of a prehistoric Earth-like species. This riftbeast falls under the category of a rift-mutated natural organism, elevated far beyond its original capabilities by exposure to high-intensity riftfields. \n Reports place its height at nearly 20 meters with enhanced bone density, triple-reinforced musculature, and rift-reactive scales that shed kinetic energy over time. Despite its brutish form, it is one of the most persistent planetary-scale threats recorded outside of Apex-Class 2 entities."
         },
         {
             "name": "Ulmika",
@@ -556,7 +556,7 @@
                     "cooldown": 1
                 }
             ],
-            "lore": "VyGar is a Stonebound construct, a semi-living being formed of ancient rock and infused with rift-stabilized ley energy. Forged in the Foundations beneath Silgar, he was originally assigned as the guardian of the Ley Core beneath Triarc Keep, a vital stabilizing structure that anchors leyline activity in the southern hemisphere of Arkhalion. When deep rift breaches threatened the surface, VyGar voluntarily left his post to join the effort aboveground — emerging not just as a protector of ley energy, but as a frontline ally against riftborn threats.\n Though he speaks and acts with wisdom beyond most mortals, VyGar is not divine. He is the product of ancient craftsmanship, arcane experimentation, and a soul bound through early IWO technomantic methods — a younger cousin, in spiritual terms, to constructs like Olthar."
+            "lore": "VyGar is a Zavrosian weapons appraiser contracted frequently by the Constellian Armed Forces and various independent trusts. He specializes in collecting weapons that have historical, political, or tactical significance. Born in the forge-cluster of Durnskarn, he rejected his clan’s traditional role as smiths and became an interpreter of weapon history instead. His knowledge of both conventional and technomantic arms has made him a valued figure in intelligence and logistics circles. Though officially unaffiliated with any state, VyGar operates on the edge of legality, with suspected ties to unsanctioned trade networks across the Alliance."
         }
     ]
 }

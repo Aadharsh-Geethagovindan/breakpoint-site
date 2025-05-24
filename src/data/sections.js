@@ -4,7 +4,7 @@ const sections = [
   { id: 'section3', title: 'Section III: Arkhalion' },
   { id: 'section4', title: 'Section IV: Organizations & Military' },
   { id: 'section5', title: 'Section V: Characters & Heroes' },
-  { id: 'A', title: 'Appendix' }
+  { id: 'sectionA', title: 'Appendix' }
 ];
 
 
