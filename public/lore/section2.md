@@ -1,100 +1,107 @@
 # Section II: The Constellian Alliance
 
-## Founding Timeline
+## Political Structure
 
-The Constellian Alliance formed in the centuries following the Breakpoint as a response to the fragmented state of the galaxy. Arkhalion, having survived the initial rift catastrophe, led early efforts to stabilize surrounding systems and rebuild interstellar cooperation. The current Galactic measurement of time is designated in AB (formerly YAB) for years After BreakPoint.
+### **Constellian Assembly**
 
-**Year 107 AB – Initial Naval Mobilization**
+The Constellian Alliance is governed by the Constellian Assembly, a layered federal legislature that reflects both the historical importance and strategic value of its member systems. As of 368 AB, the Assembly consists of four concentric tiers:
 
-With Arkhalion's surface secured following the Great Finality, planetary leadership began expanding outward. The first task was clearing the Arkhalion system of residual rift phenomena and unstable anomalies. This marked the formal beginning of a dedicated spacefaring defense fleet, later known as the Constellian Navy.
+* **First Ring – Founding Members**  
+  The original signatories of the Constellian Charter, including Arkhalion’s three coalitions, Eron Vale, and early stabilized civilizations lZavros and Nymion. They possess full voting rights, veto authority, and control over legislative agenda-setting. Founding Members can unilaterally override proposed legislation with a unanimous veto.
 
-**Year 115–130 AB – Local Sector Reclamation**
+* **Second Ring – Full Member Systems**  
+  Systems admitted after demonstrating stable rift containment, significant contribution to CAF operations, or consistent economic and strategic value. They hold equal voting rights but lack veto privileges. By 368 AB, 11 systems occupy this ring, with several more under review.
 
-Naval operations extended to neighboring moons, asteroids, and orbital colonies. Rift activity was still present in scattered pockets, and many once-inhabited zones were found uninhabitable or depopulated. Several nearby systems previously dependent on Arkhalion had collapsed entirely.
+* **Third Ring – Contributing Partners**  
+  Systems that have not joined the Alliance formally but have entered into active defense, trade, or research agreements. While they lack standard voting rights, they may form recognized voting blocs. A bloc representing multiple systems with strategic weight or economic significance may be granted partial voting status on select issues, pending Assembly review.
 
-**Year 135 AB – Establishment of Eron Vale**
+* **Fourth Ring – Observers**  
+  Systems under IWO protection, active cooperation, or diplomatic affiliation, but with no formal or contributory alliance status. Observers have no voting rights, but their delegates may speak during open sessions. A two-thirds consensus among Observers can compel the Assembly to open a formal inquiry or hold a policy hearing on a specific issue.
 
-A neutral territory was designated as a long-range coordination hub and diplomatic waypoint. Constructed in a system without a dominant native species, the outpost that would become Eron Vale quickly expanded due to its neutrality, accessibility, and administrative infrastructure. It later became the primary administrative center of the Alliance.
+---
 
-**Year 160–200 AB – Formalization of the Alliance Charter**
+### **⚙️ Sub-Councils**
 
-Arkhalion and other surviving systems established a cooperative framework to share resources, technology, and mutual defense protocols. This agreement became the basis for the Constellian Charter, the founding legal document of the Alliance. The initial signatories formed what are now known as the Founding Systems.
+The Constellian Assembly  delegates oversight of specific sectors to rotating Sub-Councils, composed of members from all tiers, with selection based on expertise, strategic presence, or historical contribution. While voting rights in full sessions follow ring rules, Sub-Councils allow for elevated influence by third and even fourth ring systems, provided their delegates demonstrate relevance.
 
-**Year 200–300 AB – Integration and Early Expansion**
+Key Sub-Councils include:
 
-Additional systems were gradually integrated into the alliance structure. Many were either stabilized by Constellian military intervention or admitted as trade partners under mutual protection clauses. The navy expanded its scope to include convoy protection, intersystem travel regulation, and early Rift Crescent patrols.
+* Frontier Expansion and Integration
 
-**Year 300–500 AB – Border Crystallization and Council Development**
+* Rift Ethics and Arcane Oversight
 
-As membership increased, the need for formal representation led to the establishment of the Constellian High Council. Governance structures were codified, and membership tiers began to take shape based on system contribution and integration status. Naval forces began formal mapping of border regions, and the Rift Crescent was declared a high-risk zone requiring specialized response units.
+* Resource Allocation and Trade Corridors
 
-**Year 500–Present (1034 AB) – Modern Alliance Stability**
+* Technomantic Infrastructure and Node Security
 
-The modern Constellian Alliance spans hundreds of member systems, with significant reach in the middle and outer rings of the galaxy. The High Council now includes Founding, Integrated, and Provisional Systems, and multiple core worlds act as cultural, industrial, and military anchors. Although galactic threats remain, the Alliance is considered one of the most stable and influential powers in the known galaxy.
+---
+
+### **👥 Executive Triad (Modern Distribution of Power)**
+
+The Alliance’s daily operations and long-term execution are handled by a permanent **Executive Triad**, each member confirmed by the Assembly.
+
+* **Speaker of Accord** – First among equals in peacetime. Oversees diplomacy, intra-ring mediation, civil dispute resolution, and observer relations. Holds casting vote in deadlocked Assembly proceedings.
+
+* **Marshal-General** – Commander of the CAF and highest authority on defense, recon operations, and rift-response protocols. In a declared State of Emergency, their powers expand to include fleet mobilization, martial command authority, and bypass of certain legislative delays.
+
+* **Prime Architect** – Director of infrastructure, expansion strategy, and rift corridor development. In designated Expansion Mandates (voted upon by the Assembly), the Prime Architect is granted accelerated planning authority and priority control of Sub-Council resources.
 
 ## 
 
-## Political Structure
+## Currency: Constellian Credits (CC)
 
-The Constellian Alliance operates under a layered federal model, balancing representation between ancient systems, newly admitted members, and sector-spanning species or institutions. Its governance emphasizes interspecies cooperation, long-term stability, and a unified response to external threats.
+The Constellian Credit (CC) was established in **292 AB**, a decade after the Alliance’s founding, to support the growing logistical needs of the Constellian Armed Forces and intersystem commerce. Its value was initially stabilized through two primary guarantees:
 
-### **High Council**
+1. **Alliance material reserves**, contributed by founding systems and tied to high-demand industrial resources like auralite and ley-reactive alloys.
 
-The Constellian High Council is the Alliance’s central legislative and diplomatic body. It consists of over 500 delegates representing three membership tiers:
+2. **CAF personnel payroll**, ensuring the currency’s wide circulation across military sectors and making it immediately attractive to local economies.
 
-* **Founding Systems**: Original signatories to the Constellian Charter. They hold full voting rights and veto authority.
+While the IWO proposed a magically encrypted credit system linked to ley signatures and technomantic validation wards, **several member systems — most notably Zavros, Virellion, and sectors of Cindralith — rejected full arcane oversight**. As a compromise, the modern credit system remains primarily **technological in nature**, distributed through secure alliance channels but without magical verification at every transaction layer.
 
-* **Integrated Systems**: Long-standing members with full voting privileges, but without independent veto power.
-
-* **Provisional Systems**: Newly admitted or partially autonomous members. They participate in a secondary Sub-Council and can influence legislation, though their votes may be overridden by the High Council.
-
-The Council also includes representation for:
-
-* Multisystem species blocs
-
-* Strategic military institutions
-
-* Alliance-wide trade and research organizations
-
-### 
-
-### 
-
-### **Executive Triad**
-
-Day-to-day execution of Alliance directives is managed by a permanent three-member executive group:
-
-* **Marshal-General**: Oversees defense and military policy
-
-* **Voice of Concord**: Manages diplomacy, mediation, and interspecies governance
-
-* **Prime Architect**: Directs infrastructure, logistics, and strategic development
-
-### **Sub-Councils**
-
-Specific functions, such as frontier integration, Rift Crescent containment, and intersector trade law, are delegated to Sub-Councils composed of both High Council and Provisional members. These bodies review, recommend, and sometimes temporarily enforce policy pending High Council ratification.
-
-## Core Worlds
+## Key Alliance Worlds
 
 The following planets serve as primary anchors of the Constellian Alliance. Each plays a distinct role in maintaining the Alliance’s infrastructure, economy, and defense posture.
 
-### **Arkhalion**
+## **Key Alliance Systems and Worlds**
 
-A ley-rich and divine-energy-saturated world, Arkhalion was the site of the Breakpoint and the first world to resist its aftermath. It serves as a cultural and magical cornerstone of the Alliance, and remains a symbolic capital of resistance and recovery. It is home to the three major Delta cities: Silgar, Cindralith, and Aetherion. It is arguably the most important of the core worlds, owing to its density of divine-energy manifesting beings, and serving as the headquarters for the Intergalactic Wizarding Organization (IWO), which is the most powerful collection of arcane energy scholars and users in the galaxy.
+As of 381 AB, the Constellian Alliance spans dozens of systems, with its core infrastructure and institutions concentrated around a few pivotal worlds. These planets, moons, and stations form the beating heart of Constellian civilization — politically, economically, and arcane-spiritually.
 
-### **Eron Vale**
+---
 
-Located in a formerly uninhabited system, Eron Vale was chosen for its neutrality and accessibility. It now houses the Tri-Spire Conclave and serves as the administrative and diplomatic capital of the Alliance. The city’s lack of indigenous populations made it an ideal location for shared governance across species.
+### **Arkhalion System**
 
-### **Virellion**
+The birthplace of the Breakpoint, the Divine Rift Wars, and the IWO itself, Arkhalion remains symbolically central to galactic history. Today, its surviving celestial bodies are still active Coalition cores: **Silgar, Cindralith, Aetherion**, and the battered remains of **Arkhalion Prime**. The IWO’s Bastion still orbits within Arkhalion’s inner node paths.  
+ *For an in-depth exploration of this system’s history and culture, see Lore Codex: Section 3 – The Arkhalion Core.*
 
-The Alliance’s industrial powerhouse. Virellion is a dense, urbanized world filled with orbital shipyards, manufacturing megacomplexes, and materials processing stations. It produces the majority of naval infrastructure and weaponry across Alliance fleets.
+---
+
+### **Eron Vale (Eron System)**
+
+A once-lost world, Eron Vale was the second system liberated by the CAF after Arkhalion, and has since become the *true diplomatic core* of the modern Alliance. Its geography — rich in riftnodes but strangely stable — allowed the IWO to anchor a foothold here early, founding the Eron Institute atop the now-fortified mountain that also houses the Eruin Complex.
+
+The Eron Stadia at the mountain’s base hosts most mid-scale political and diplomatic summits, though the real features are uphill on the Hall of Concord and Trispheres, homes of the Assembly and Executive Triad respectively. Eron Vale has become a melting pot of species, scholars, and soft power, with migration accelerating every year.
+
+---
 
 ### **Tarkala Prime**
 
-A militarized fortress world in the Alliance’s northern sector. It hosts the main training facilities for the Constellian Army and is the location of several tactical AI networks and war colleges. Riftwatch protocols are often tested here before being rolled out Alliance-wide.
+First discovered in 287 AB, Tarkala Prime is a strategically ideal world for military operations: high-gravity, high-density, and abundant in specialized minerals used in starship hulls, kinetic shielding, and technomantic alloys.
 
-### **Cirellas**
+CAF engineers, together with Silgarian officers and IWO architects, helped establish a modular fortress grid across its continents, making Tarkala the premier training and staging world for land-based operations. Local Takal clans, adapted to extreme gravity, are often recruited into advanced infantry or siege roles. Tarkala remains under direct Alliance jurisdiction, with those of the takal who are willing to join the CAF readily accepted.
 
-A lush, agriculturally optimized planet responsible for a large portion of the Alliance’s food production and biological exports. It also produces atmospheric stabilizers and terraforming agents used in fringe colonization. The planet hosts several institutes for sustainable development and xenobotany.
+---
+
+### **Virellion**
+
+A system of immense material wealth and one of the few surviving pre-Breakpoint spacefaring civilizations, Virellion was integrated into the Alliance during the Expansion Era. The Virellionese possess robust interplanetary infrastructure, with a legacy of resource extraction, cargo automation, and void-sector navigation.
+
+Over the past century, Virellion has evolved into a key logistics hub: CAF fleet support passes through its orbital rings, while Cindralith Trusts have contracts to operate dozens of refined mining and fabrication colonies throughout the system. The Virellionese themselves are viewed as pragmatic, highly structured, and surprisingly adaptive — especially in technomantic fields.
+
+---
+
+### **Zavros System**
+
+The Zavrosians, a subterranean species of stone-born humanoids, occupy a mineral-rich planet with limited surface activity. Their society is deep, layered, and religiously tied to the gods of stone, magma, silence, and memory.
+
+Since contact, the Zavrosians have become one of the Alliance’s most respected weapons manufacturers. Their artisans produce both artisanal divine-forged blades and high-output CAF-standard arms — a rare fusion of craftsmanship and scale. IWO liaison efforts in Zavros have been particularly successful, with several of their temple-complexes now hosting sub-academies and armament enchanters.
 

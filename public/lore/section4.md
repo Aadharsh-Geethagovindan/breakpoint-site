@@ -2,9 +2,9 @@
 
 ## The Constellian Navy
 
-The **Constellian Navy** is the primary spacefaring defense and exploration force of the Constellian Alliance. Originally formed to clear rift threats from the Arkhalion system in the century following the Breakpoint, it has since grown into a galaxy-spanning institution responsible for patrolling trade routes, responding to high-level rift events, and ensuring the territorial integrity of Alliance space. The Navy serves not only as a military body but also as a diplomatic and humanitarian force, often being the first to arrive in newly integrated or crisis-stricken systems.
+The **Constellian Navy** is the primary spacefaring defense and exploration force of the Constellian Alliance. Originally formed to clear rift threats from the Arkhalion system in the century following the Breakpoint, it has since grown into an institution spanning dozens of worlds, responsible for patrolling trade routes, responding to high-level rift events, and ensuring the territorial integrity of Alliance space. The Navy serves not only as a military body but also as a diplomatic and humanitarian force, often being the first to arrive in newly integrated or crisis-stricken systems.
 
-Today, the Navy commands hundreds of fleets, ranging from agile recon squadrons to full-scale sector battlegroups. These fleets are composed of thousands of ships and millions of personnel drawn from across the Alliance’s many species. The Constellian Navy is widely regarded as the most organized and resource-rich naval force in the known galaxy, though it often stretches its resources thin, maintaining coverage across vast and politically diverse territories.
+Today, the Navy commands over twenty fleets, ranging from agile recon squadrons to full-scale sector battlegroups. These fleets are composed of dozens of ships and thousands of personnel drawn from across the Alliance’s many species. The Constellian Navy is widely regarded as the most organized and resource-rich naval force in the known galaxy, though it often stretches its resources thin, maintaining coverage across vast and politically diverse territories.
 
 ### **Rank Structure – Tier Types**
 
@@ -48,14 +48,13 @@ However, on smaller vessels — such as corvettes, patrol ships, or support frig
 
 While shipboard officers manage the internal operations of individual vessels, the **High Command** oversees strategic deployment, fleet coordination, and interstellar military policy. These ranks exist above individual ship hierarchies and are responsible for managing entire fleets, solar system task forces, and regional sectors. Officers at this level are chosen based on demonstrated command performance, tactical success, and political stability.
 
-Only a select few reach the highest tiers, and their decisions shape the Navy's long-term engagements and diplomacy across the galaxy. The following table outlines the tiers of High Command and their corresponding responsibilities.
+Only a select few reach the highest tiers, and their decisions shape the Navy's long-term engagements and diplomacy across the known galaxy. The following table outlines the tiers of High Command and their corresponding responsibilities.
 
 | Tier | Rank Title | Role Description |
 | :---- | :---- | :---- |
-| 1 | ArchMarshal | One of a small council of supreme naval leaders. Oversees entire Alliance sectors and coordinates multi-sector campaigns. |
-| 2 | Sun Marshal | Commands full solar system fleets and regional theaters of operation. Serves as the Navy's voice to the Alliance Council during active campaigns. |
-| 3 | Fleet Marshal | Directs all ships within a single fleet. Oversees engagements at the system or battlegroup level. |
-| 4 | Helm Master | Highest-ranking officer aboard a ship. Commands one capital ship and coordinates with fleet command. |
+| 1 | Sun Marshal | Commander of the entire Constellian Navy |
+| 2 | Fleet Marshal | Directs all ships within a single fleet. Oversees engagements at the system or battlegroup level. Some High Fleet Marshals can oversee multiple fleets |
+| 3 | Helm Master | Highest-ranking officer aboard a ship. Commands one capital ship and coordinates with fleet command. Senior Helm Masters can command smaller ships attached to theirs as well |
 
 ### **Naval Ship Classifications**
 
@@ -79,7 +78,7 @@ Constellian Navy vessels are classified according to their **size, role, and ope
 
 While the bulk of the Constellian Navy operates through standard fleets and command structures, certain missions require highly trained, specialized operatives. These tasks — including deep infiltration, high-risk rift suppression, and tactical strike coordination — fall to the Navy’s Special Forces Divisions. These elite groups are composed of operatives drawn from across the Alliance, often trained under unique protocols and equipped with custom-built weaponry or experimental systems.
 
-Most special forces divisions operate independently of standard fleet hierarchy, answering only to a designated high command branch or specific ArchMarshal directive. While rare in number, they are instrumental in resolving conflicts that would otherwise overwhelm conventional naval forces.
+Most special forces divisions operate independently of standard fleet hierarchy, answering only to a designated high command branch or specific SunMarshal directive. While rare in number, they are instrumental in resolving conflicts that would otherwise overwhelm conventional naval forces.
 
 #### **Voidblade**
 
@@ -97,15 +96,15 @@ CEU designations do not confer rank or authority within the traditional chain of
 
 CEU ranks are universally recognized across all Constellian military branches, and they also serve an important morale and coordination function. High-ranking CEU operatives are often deployed not just for combat effectiveness, but as a psychological anchor — reassurance that the most dangerous threats are being handled by those uniquely suited to do so.
 
-The CEU scale ranges from Emergent candidates to Divine Anchors, with each tier denoting a broader field role, clearance level, and expected operational ceiling. While CEU ranks do not denote command authority, enhanced units can also be assigned designations within the standard military chain of command. This dual-role structure is not uncommon; many senior officers — including some Fleet and Sun Marshals — also carry CEU designations, reflecting both their tactical leadership and their extraordinary combat capability.
+The CEU scale ranges from Emergent candidates to Divine Anchors, with each tier denoting a broader field role, clearance level, and expected operational ceiling. While CEU ranks do not denote command authority, enhanced units can also be assigned designations within the standard military chain of command. This dual-role structure is not uncommon; many senior officers — including some Fleet Marshals — also carry CEU designations, reflecting both their tactical leadership and their extraordinary combat capability.
 
 | Tier | Designation | Role |
 | :---- | :---- | :---- |
-| CEU-1 | Divine Anchor | Reserved for near-legendary operatives whose presence alone can shift galactic-scale conflicts. Deployed only against Sovereign-class threats or catastrophic break scenarios. |
+| CEU-1 | Divine Anchor | Reserved for near-legendary operatives whose presence alone can shift galactic-scale conflicts. Deployed only against high Apex-class threats or catastrophic break scenarios. |
 | CEU-2 | Paragon | Exceptionally powerful enhanced units who can operate independently in Class A engagements. Capable of holding entire battlefronts or executing deep-strike operations alone. |
-| CEU-3 | Vanguard | Proven frontline elites. Effective against Apex Class 4 and Goliath-class threats. Often lead enhanced squads or serve as key tactical assets in strike formations. |
+| CEU-3 | Vanguard | Proven frontline elites. Effective against Goliath-class threats. Often lead enhanced squads or serve as key tactical assets in strike formations. |
 | CEU-4 | Sentinel | Trusted field-grade enhanced units. Handle Mainline-class threats with consistency and precision. May act independently or under Vanguard guidance, May also handle low level Goliath class incidents. |
-| CEU-5 | Emergent | Newly identified enhanced candidates. Still undergoing evaluation or restricted deployment. Typically paired with senior CEUs for supervised field acti |
+| CEU-5 | Emergent | Newly identified enhanced candidates. Still undergoing evaluation or restricted deployment. Typically paired with senior CEUs for supervised field activity |
 
 ### 
 
@@ -169,17 +168,17 @@ Shockborn squads are fitted with high-impact armor, breaching charges, short-ran
 
 ## 
 
-## International Wizarding Organization
+## Intergalactic Wizarding Organization
 
-The Intergalactic Wizarding Organization is one of the oldest surviving institutions in the galaxy, with roots that trace back thousands of years before the Breakpoint. In the pre-Breakpoint era, when powerful mages, arcane temples, and ley-bound citadels dotted the stars, the IWO stood as the central regulatory and research body for magical knowledge and practice. Its influence extended across systems, with member orders spread across numerous planets, many of which no longer exist.
+The Intergalactic Wizarding Organization (originally the Interplanetary Wizarding Organization) is a very old organization, with roots that trace back hundreds, maybe thousands of years before the Breakpoint. In the pre-Breakpoint era, as technology outpaced magic, they began to lose their relevance and influence.
 
-In the aftermath of the Breakpoint, the IWO was nearly shattered. Entire divisions vanished in the chaos, and most of its ancient archives were lost or sealed. However, through discipline, reformation, and decisive intervention during the Divine Rift Wars, the IWO re established itself as the single most powerful institution in the post-Breakpoint galaxy. Its headquarters—rebuilt on Arkhalion—now serves as both a research bastion and silent stronghold.
+In the aftermath of the Breakpoint, the IWO was nearly shattered. Entire divisions vanished in the chaos, and most of its ancient archives were lost or sealed. However, through discipline, reformation, and decisive intervention during the Divine Rift Wars, the IWO re-established itself as the single most powerful institution in the post-Breakpoint galaxy. Its headquarters—rebuilt as a floating space station orbiting Arkhalion Prime—now serves as both a research base and silent stronghold.
 
 While the public perceives the IWO as a scholarly institution dedicated to rift research and arcane safeguarding, its true reach runs deeper. Through its vast network of agents, researchers, and operatives, it exerts subtle control over Alliance policy, military deployment, and even Arkhalion’s political decisions. Though never overt, its presence is always accounted for. Most notably, while nearly no one outside its inner circles knows the truth, it was a secretive IWO experiment that led to the Breakpoint event — a burden it has carried in silence ever since.
 
 ### **Internal Division Structure**
 
-The IWO operates through a series of formal divisions, each tasked with overseeing a specific domain of arcane knowledge, application, or oversight. While originally far broader in scope during the pre-Breakpoint era, the modern IWO has streamlined its focus to reflect the reality of the post-rift galaxy. Each division is vast in scale and composed of multiple branches, research centers, and deployment cells spread across the galaxy — though their most elite personnel operate from Arkhalion.
+The IWO operates through a series of formal divisions, each tasked with overseeing a specific domain of arcane knowledge, application, or oversight. The modern IWO has streamlined its focus to reflect the reality of the post-rift galaxy. Each division is vast in scale and composed of multiple branches, research centers, and deployment cells spread across the known galaxy — though their most elite personnel operate from Arkhalion.
 
 Though all divisions are technically equal in structure, the balance of influence among them shifts over time based on the galaxy’s rift activity, political instability, or scientific discovery.
 
@@ -204,7 +203,7 @@ This division was formed by merging the former Arcane Engineering and Technomant
 
 #### **Theoretical Division**
 
-Tasked with maintaining the IWO’s intellectual and historical core, the Theoretical Division preserves magical knowledge, advances arcane theory, and advises other divisions on metaphysical risk. Its researchers focus on leyline modeling, rift-source analysis, and energy interaction mapping.
+Tasked with maintaining the IWO’s intellectual and historical core, the Theoretical Division preserves magical knowledge, advances arcane theory, and advises other divisions on metaphysical risk. Its researchers focus on leyline modeling, rift-source analysis, and rift node mapping.
 
 * **Subfield**: Archive & Relic Protection  
    Protects and studies ancient artifacts, pre-Breakpoint ruins, and dangerous magical texts or constructs. Many Veilkeepers are recruited from this subfield.
@@ -234,18 +233,17 @@ Each division maintains its own internal hierarchy, but the clearance tiers are 
 
 The IWO High Council is the supreme governing body of the Intergalactic Wizarding Organization, composed of the most powerful and trusted individuals in the organization — the Primarchs. Each Primarch represents one of the IWO’s core divisions and serves as both strategic leader and philosophical steward of their domain. Together, the Council determines the IWO’s direction on matters of arcane research, rift intervention, alliance diplomacy, and internal doctrine.
 
-Presiding over the Council is the Prime Magister, the highest arcane authority in the galaxy. The Prime Magister serves as the final arbiter of deadlocked decisions, oversees inter-divisional harmony, and holds emergency powers to authorize unilateral action when time or secrecy demand it. While rarely seen in public, the Prime Magister’s influence touches nearly every major arcane initiative across the known galaxy.
+Presiding over the Council is the **Prime Magister**, the highest arcane authority in the known galaxy. The Prime Magister serves as the final arbiter of deadlocked decisions, oversees inter-divisional harmony, and holds emergency powers to authorize unilateral action when time or secrecy demand it. While rarely seen in public, the Prime Magister’s influence touches nearly every major arcane initiative across the known galaxy.
 
 Though the Council presents a unified front, ideological differences between Primarchs often shape internal debate — and the balance of power can shift subtly over time. Still, few question the IWO’s role as the ultimate authority on arcane matters in the post-Breakpoint era.
 
-## Starsprawler Academy and Silgar Military and Silguard
+## Silgarian Military and Enforcement Orgs
+
 ### **StarSprawler Academy** 
 
-StarSprawler Academy is the oldest and most prestigious military institution in Silgar — and arguably the entire Constellian Alliance. Founded by the divine warrior Gosen in the aftermath of the Breakpoint, SSA was built with a singular mission: to train generations of elite soldiers, tacticians, and battlefield leaders capable of defending civilization against the chaos of the rift.
+StarSprawler Academy is the oldest and most prestigious military institution in Silgar — and arguably the entire Constellian Alliance. Founded by the divine being Gosen in the aftermath of the Breakpoint, SSA was built with a singular mission: to train generations of elite soldiers, tacticians, and battlefield leaders capable of defending civilization against the chaos of the rift.
 
-Over the course of its 930-year history, SSA has developed a reputation not only for its rigorous physical training but also for its moral discipline, strategic education, and deeply meritocratic advancement system. Cadets are expected to master combat tactics, leadership principles, and survival against overwhelming odds. Graduation from SSA is a hard-earned achievement, and those who bear its mark carry great respect across the Alliance — especially within the Silgarian military, where SSA alumni often rise quickly through the ranks.
-
-While deeply tied to Silgar, SSA has trained warriors from across the Alliance, and its teachings continue to shape military doctrine far beyond Arkhalion.
+Over the course of its 800+ year history, SSA has developed a reputation not only for its rigorous physical training but also for its moral discipline, strategic education, and deeply meritocratic advancement system. Cadets are expected to master combat tactics, leadership principles, and survival against overwhelming odds. Graduation from SSA is a hard-earned achievement, and those who bear its mark carry great respect across the Alliance — especially within the Silgarian military, where SSA alumni often rise quickly through the ranks.
 
 | Tier | Cadet Rank | Description |
 | :---- | :---- | :---- |
@@ -278,7 +276,7 @@ Support roles, such as engineers, medics, and magic-wielding operatives, are tig
 
 While front-line warriors form the vanguard of Silgar’s military might, their success depends heavily on the expertise and resilience of the **Support Corps** — a structured network of specialized personnel who operate alongside combat units in nearly every mission profile.
 
-Founded under Gosen’s doctrine that no role is lesser, the support wings were formalized early in Silgar’s military development and have remained essential ever since. From battlefield triage to arcane artillery, these roles are not auxiliary — they are foundational.
+Founded under Gosen’s doctrine that no role is lesser, the support wings were formalized early in Silgar’s military development and have remained essential ever since. From battlefield triage to arcane artillery, these roles are vital.
 
 The four major Wings of support are:
 

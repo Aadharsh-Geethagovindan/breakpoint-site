@@ -4,10 +4,10 @@
 
 | Class | Class Range System | Description |
 | :---- | :---- | :---- |
-| Sovereign | 1-3 | Divine-tier rift entities. Reality-warping. Only a few known. |
-| Apex | 1-4 | Catastrophic threat. Class 1’s Equivalent to large divine beings in raw power. |
-| Goliath | 1-4 | Massive and highly destructive, but not fully divine. Often used in siege behavior. |
-| Mainline | 1-6 | Typical rift monsters. Dangerous individually; deadly in groups. |
+| Sovereign | 1-3 | Essences of Veyl Itself. They operate on a level similar to gods. Their presence in material space is sporadic |
+| Apex | 1-4 | Catastrophic threat. Class 1’s Equivalent to divine beings in raw power. |
+| Goliath | 1-4 | Massive and highly destructive, requiring heavy weaponry or specialized tactics to take down. Class 1s give CAF Vanguards trouble. |
+| Mainline | 1-6 | Typical rift monsters. Dangerous individually; deadly in groups.  |
 | Lesser | 1-5 | Small-scale, swarm-type entities. Used in disruption or spread. |
 | Aberrant | 1-5 | Mutated or unique riftforms. May fall between categories; require specialized analysis. |
 
@@ -34,5 +34,5 @@ This standard enables rapid calibration of military response levels and containm
 | B | Major Break | Multiple Goliath-class and high-count Mainline-class riftbeasts. Threatens regional stability. |
 | C | Moderate Break | Mainline-class riftbeasts in medium numbers. Requires military intervention but not galactic assets. |
 | D | Minor Break | Small swarms of lesser riftbeasts. Can be managed by local planetary forces. |
-| E | Contained Breach | Minimal threat. Often a flicker of rift activity. Not always engaged, but constantly monitored. |
+| E | Contained Breach | Spatial portals that can be created for movement. Rift Induction Chambers in Spaceships make these to move across star systems |
 
