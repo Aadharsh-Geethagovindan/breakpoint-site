@@ -16,6 +16,8 @@ function App() {
       <Route path="/lore/:sectionId" element={<LorePage />} />
       <Route path="/characters" element={<CharactersPage />} />
       <Route path="/character/:name" element={<CharacterPage />} />
+      <Route path="/tcg" element={<Navigate to="/characters" />} />
+
       </Routes>
     </Router>
   );

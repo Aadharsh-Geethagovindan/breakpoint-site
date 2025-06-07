@@ -5,6 +5,7 @@ import CharacterCard from '../components/CharacterCard';
 export default function CharactersPage() {
   const [characters, setCharacters] = useState([]);
 
+  
   useEffect(() => {
     fetch('/data/characters.json')
       .then(res => res.json())
@@ -14,15 +15,26 @@ export default function CharactersPage() {
   }, []);
 
   return (
-    <div>
-      <h1>BreakPoint Characters</h1>
+  <div>
+    
+
+    <h1>BreakPoint Characters</h1>
+
+    {/* 🟡 DEBUG CHARACTER CHECK */}
+    {characters.length === 0 ? (
+      <p style={{ color: 'yellow', textAlign: 'center' }}>⚠ No characters found</p>
+    ) : (
       <div className="character-grid">
-        {characters.map(char => (
-          <Link key={char.name} to={`/character/${char.name}`}>
+      {characters.map(char => (
+        <div className="character-wrapper" key={char.name}>
+          <Link to={`/character/${char.name}`}>
             <CharacterCard name={char.name} image={char.imageName} />
           </Link>
-        ))}
-      </div>
+        </div>
+      ))}
     </div>
-  );
+    )}
+  </div>
+);
+
 }

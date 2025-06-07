@@ -205,3 +205,27 @@ html {
 .nav-button.right {
   text-align: right;
 }
+.character-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  justify-items: center;
+}
+
+.character-wrapper {
+  text-align: center;
+}
+
+.character-wrapper img {
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  transition: transform 0.2s ease;
+  width: 150px;
+  height: 220px;
+  object-fit: cover;
+}
+
+.character-wrapper img:hover {
+  transform: scale(1.05);
+}

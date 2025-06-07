@@ -1,7 +1,7 @@
 export default function HomePage() {
     return (
       <div style={{ padding: '20px' }}>
-        <h1>Welcome to BreakPoint</h1>
+        <h1>BreakPoint TCG</h1>
         <img src={`/Images/MainPoster.png`} width="400" />
   
         <h1>🧭 How to Play: TCG Multiplayer Overview</h1>
