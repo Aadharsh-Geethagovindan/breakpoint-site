@@ -1,0 +1,209 @@
+.character-detail-layout {
+  display: flex;
+  gap: 20px;
+  padding: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.character-profile-card {
+  background-color: #1a1a1a;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 0 12px rgba(176, 112, 255, 0.4);
+  flex: 1;
+  min-width: 300px;
+  max-width: 400px;
+  text-align: center;
+}
+
+.character-image {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(128, 0, 255, 0.5);
+  transition: box-shadow 0.3s ease;
+}
+
+.character-name {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #cfa3ff;
+  margin-top: 10px;
+}
+
+.character-origin {
+  font-size: 0.9rem;
+  color: #aaa;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.character-stats-box {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  background-color: #111;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-family: monospace;
+  border: 1px solid #444;
+}
+
+.stat-item {
+  flex: 1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px; /* Add spacing between label and value */
+}
+
+.stat-label {
+  color: #888;
+  font-size: 0.8rem;
+}
+
+.stat-value {
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.character-info-column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 2;
+  min-width: 300px;
+}
+
+.character-card {
+  background-color: #1a1a1a;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 0 12px rgba(176, 112, 255, 0.4);
+}
+
+.character-card h3 {
+  color: #e0b3ff;
+  margin-bottom: 10px;
+}
+
+.character-card ul {
+  padding-left: 20px;
+  color: #ccc;
+}
+
+.character-card li {
+  margin-bottom: 8px;
+}
+
+.character-card p {
+  color: #ccc;
+  line-height: 1.6;
+}
+
+
+/* Offset and constrain info column */
+.character-info-column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 2;
+  min-width: 300px;
+  max-width: 700px;
+  margin-left: 40px;
+}
+
+/* Stats box and profile glow inheritance */
+
+.character-stats-box {
+  box-shadow: 0 0 12px rgba(176, 112, 255, 0.4); /* fallback */
+  transition: box-shadow 0.3s ease;
+}
+
+/* Move rarity glow to image instead */
+.rarity-C .character-image,.rarity-C .character-stats-box {
+  box-shadow: 0 0 12px rgba(128, 128, 128, 0.5);
+}
+.rarity-UC .character-image,.rarity-UC .character-stats-box {
+  box-shadow: 0 0 12px rgba(192, 192, 192, 0.5);
+}
+.rarity-R .character-image,.rarity-R .character-stats-box {
+  box-shadow: 0 0 12px rgba(13, 221, 96, 0.5);
+}
+.rarity-UR .character-image,.rarity-UR .character-stats-box {
+  box-shadow: 0 0 15px rgba(200, 100, 255, 0.6);
+}
+.rarity-L .character-image,.rarity-L .character-stats-box {
+  box-shadow: 0 0 16px rgba(255, 215, 0, 0.6);
+}
+
+/* Profile card is always purple glow now */
+.character-profile-card {
+  box-shadow: 0 0 16px rgba(176, 112, 255, 0.4);
+}
+
+
+
+/* Mobile fix */
+  @media (max-width: 768px) {
+  
+  .character-detail-layout {
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    padding: 0 !important;
+    gap: 0 !important;
+    margin: 0;
+    width: 100%;
+  }
+  .character-profile-card,
+  .character-info-column {
+    width: 100% !important;
+    margin: 0 auto !important;
+    padding-bottom: 10px;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    box-sizing: border-box !important;
+  }
+
+  .character-profile-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    width: 100%;
+    max-width: 600px;
+    padding: 10px;
+  }
+
+  .profile-text-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .character-image {
+    max-width: 40%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .moves-box,
+  .lore-box {
+    width: 100%;
+    max-width: 600px;
+    box-sizing: border-box;
+    margin: 20px auto 0 auto; /* top spacing only for consistent gap */
+    padding: 20px;
+  }
+  
+  
+}
+
+
+
